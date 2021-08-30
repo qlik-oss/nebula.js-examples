@@ -1,0 +1,18 @@
+body {
+  background: #eee;
+}
+
+div[class*="_root"] {
+  position: relative;
+  height: 600px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+.toolbar {
+  margin: 12px 0px;
+}
