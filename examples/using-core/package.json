@@ -1,0 +1,48 @@
+{
+  "name": "mashup-bundle-size",
+  "version": "0.1.0",
+  "description": "testing if we can remove redundant bundle size while using multiple charts",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./dist/*",
+    "build:dev": "webpack-dev-server --config webpack.config.js --progress --env=dev",
+    "build:prod": "npm run clean && webpack --config webpack.config.js --progress --env=prod",
+    "serve:prod": "serve ./dist"
+  },
+  "keywords": [
+    "mashup",
+    "nebula.js"
+  ],
+  "author": "@amdev (Ahmad Mirzaei)",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/styles": "^4.11.4",
+    "@nebula.js/sn-bar-chart": "^1.7.1",
+    "@nebula.js/sn-line-chart": "^1.6.1",
+    "@nebula.js/sn-scatter-plot": "^1.0.1",
+    "@nebula.js/stardust": "^1.7.0",
+    "compression-webpack-plugin": "^8.0.1",
+    "enigma.js": "^2.7.3",
+    "hammerjs": "^2.0.8",
+    "picasso-plugin-hammer": "^1.2.2",
+    "picasso-plugin-q": "^1.2.2",
+    "picasso.js": "^1.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.2.0",
+    "rimraf": "^3.0.2",
+    "serve": "^12.0.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.51.1",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
