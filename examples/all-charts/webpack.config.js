@@ -46,7 +46,7 @@ module.exports = ({ env }) => ({
   },
 
   optimization: {
-    minimize: false,
+    minimize: true,
     splitChunks: {
       chunks: "all",
       minSize: 20000,
@@ -102,7 +102,7 @@ module.exports = ({ env }) => ({
     }),
 
     new BundleAnalyzerPlugin({
-      openAnalyzer: false,
+      openAnalyzer: true,
       analyzerPort: 1235,
       defaultSizes: "stat",
     }),
@@ -115,7 +115,7 @@ module.exports = ({ env }) => ({
 
   devServer: {
     compress: true,
-    open: false,
+    open: true,
     port: 1234,
   },
 });
