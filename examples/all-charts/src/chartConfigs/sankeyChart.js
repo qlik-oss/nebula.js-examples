@@ -1,9 +1,9 @@
-export const snakeyChartConfig = {
+export const sankeyChartConfig = {
   /** sankey chart config */
   type: "sankey-chart",
-  element: document.querySelector(".snakey_root"),
+  element: document.querySelector(".sankey_root"),
   properties: {
-    title: "[Example #10]: snakey chart",
+    title: "[Example #10]: sankey chart",
     qHyperCubeDef: {
       qDimensions: [
         {

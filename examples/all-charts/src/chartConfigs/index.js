@@ -8,6 +8,6 @@ export * from "./kpi";
 export * from "./lineChart";
 export * from "./mekkoChart";
 export * from "./orgChart";
-export * from "./snakeyChart";
+export * from "./sankeyChart";
 export * from "./scatterConfig";
 export * from "./tableConfig";

@@ -1,15 +1,25 @@
 import "./styles.css";
 import embed from "./configure";
 import connect from "./connect";
+import connectLocal from "./connect-local";
 
 import * as chartConfigs from "./chartConfigs";
 
+const config = {
+  local: false,
+  url: "https://my-tenant.qlikcloud.com",
+  webIntegrationId: "<REPLACE_ME>",
+  appId: "<REPLACE_ME>",
+};
+
 async function run() {
-  const app = await connect({
-    url: "https://a360.us.qlik-stage.com",
-    webIntegrationId: "zo_Fgzt0jHLijWZsqGo_vfHdmYhXq8rt",
-    appId: "8e19ef43-ddd7-42ca-bb4b-d7acc7d64fbc",
-  });
+  let app;
+  if(config.local) {
+    app = await connectLocal({ appId: "apps/the_movies.qvf" });
+  } else {
+     const app = await connect(config);
+  }
+
 
   const n = embed(app);
 
