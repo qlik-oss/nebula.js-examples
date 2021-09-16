@@ -1,0 +1,16 @@
+{
+  "name": "local-mashup",
+  "version": "1.0.0",
+  "description": "Simple local mashup",
+  "sideEffects": false,
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --dist-dir ./dist"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0",
+    "enigma.js": "2.7.2",
+    "@nebula.js/stardust": "latest",
+    "@nebula.js/sn-table": "latest"
+  }
+}

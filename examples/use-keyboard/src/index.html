@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nebula local mashup</title>
+    <style>
+      body {
+        background: #eee;
+        height: 100vh;
+      }
+
+      .content {
+        margin: 0 auto;
+        width: 80%;
+        height: 100%;
+        max-width: 1280px;
+      }
+
+      .object, .listbox, .copy {
+        position: relative;
+        margin: 5px;
+        height: 400px;
+        width: 400px;
+        background-color: white;
+      }
+
+
+      .toolbar {
+        background-color: white;
+        margin: 12px 5px;
+      }
+
+      .flex {
+        display: flex;
+        flex-wrap: wrap;
+        height: 30%;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="toolbar"></div>
+      <button class="toggleAccessibility">Toggle Accessibility</button>
+      <div class="flex">
+        <div class="copy"></div>
+        <div class="object"></div>
+        <div class="object"></div>
+      </div>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
