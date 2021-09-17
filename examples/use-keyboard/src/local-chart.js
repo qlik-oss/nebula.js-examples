@@ -1,4 +1,4 @@
-import { useElement, useKeyboard, useEffect, useOptions, useState, useEmbed } from '@nebula.js/stardust';
+import { useElement, useKeyboard, useEffect, useOptions, useState } from '@nebula.js/stardust';
 
 export default function supernova(env) {
   const { sense } = env;
@@ -39,25 +39,11 @@ export default function supernova(env) {
           element.innerHTML = `<button class="button" tabIndex="-1">HELLO</button><div class="counter">0</div>`;
           var btn = element.querySelector('.button');
           btn.addEventListener('click', () => {
+            !keyboard.active && keyboard.enabled && keyboard.focus();
             element.querySelector('.counter').innerText = +element.querySelector('.counter').innerText + 1;
           });
         }
       }, [element]);
-
-      /*const embed = useEmbed();
-      useEffect(() => {
-        if (embed) {
-          console.log(embed.getRegisteredTypes());
-          embed.render({
-            type: 'barchart',
-            element,
-            fields: [{ qLibraryId: 'kktaEkC' }, '=rand()-0.5'],
-            //properties: { color: { mode: 'byDimension' } },
-          });
-          debugger;
-        }
-      }, [embed, element]);
-      */
     },
 
     ext: {},
