@@ -7,6 +7,10 @@
 * Using chart core packages
   * [Basic setup with webpack](https://github.com/qlik-oss/nebula.js-examples/tree/main/examples/simple-setup)
   * [Example with all charts](https://github.com/qlik-oss/nebula.js-examples/tree/main/examples/all-charts/src)
+
+* Building mashups
+  * [Using the keyboard](https://github.com/qlik-oss/nebula.js-examples/tree/main/examples/use-keyboard)
+  * [Using themes](https://github.com/qlik-oss/nebula.js-examples/tree/main/examples/themes)
 ## License
 
 `https://github.com/qlik-oss/nebula.js-examples` is [MIT licensed](./LICENSE).
