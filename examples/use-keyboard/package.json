@@ -10,7 +10,7 @@
   "devDependencies": {
     "parcel": "^2.0.0-rc.0",
     "enigma.js": "2.7.2",
-    "@nebula.js/stardust": "latest",
-    "@nebula.js/sn-table": "latest"
+    "@nebula.js/stardust": "2.0.0",
+    "@nebula.js/sn-table": "1.1.0-beta.3"
   }
 }

@@ -54,11 +54,3 @@ function init() {
 }
 
 init();
-
-/*
-nebbie.render({
-  type: 'piechart',
-  element: document.querySelector('.whatEverClassNameYouPick'),
-  fields: ['name', '=rand()'],
-});
-*/

@@ -17,7 +17,7 @@ async function run() {
   if(config.local) {
     app = await connectLocal({ appId: "apps/the_movies.qvf" });
   } else {
-     const app = await connect(config);
+    app = await connect(config);
   }
 
 

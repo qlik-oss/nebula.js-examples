@@ -1,7 +1,6 @@
-import { useElement, useKeyboard, useEffect, useOptions, useState } from '@nebula.js/stardust';
+import { useElement, useKeyboard, useEffect, useState } from '@nebula.js/stardust';
 
-export default function supernova(env) {
-  const { sense } = env;
+export default function supernova() {
   return {
     qae: {
       properties: {},
@@ -9,7 +8,6 @@ export default function supernova(env) {
     },
     component() {
       const element = useElement();
-      const options = useOptions();
       const [listener, setListener] = useState();
 
       const keyboard = useKeyboard();

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nebula local mashup</title>
+    <style>
+      body {
+        background: #eee;
+        height: 100vh;
+      }
+
+      .content {
+        margin: 0 auto;
+        width: 80%;
+        height: 100%;
+        max-width: 1280px;
+      }
+
+      .object,.pre {
+        position: relative;
+        margin: 5px;
+        height: 400px;
+        width: 400px;
+        background-color: white;
+      }
+
+      .toolbar {
+        background-color: white;
+        margin: 12px 5px;
+      }
+
+      .flex {
+        display: flex;
+        flex-wrap: wrap;
+        height: 30%;
+        margin: 5px;
+        max-width: 1000px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="toolbar"></div>
+      <button class="css">inject css</button>
+      <button class="theme">Switch Theme</button>
+      <div class="flex">
+        <div class="object"></div>
+        <div class="object"></div>
+        <div class="object"></div>
+        <pre class="pre">
+
+  div.njs-cell {
+    background: maroon;
+  }
+
+  p.njs-cell-footer,
+  h6.njs-cell-title,
+  p.njs-cell-sub-title {
+    color: white;
+  }
+
+  button.njs-cell-action {
+    color: white;
+  }
+        </pre>
+      </div>
+
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
