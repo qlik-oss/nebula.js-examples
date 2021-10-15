@@ -1,5 +1,6 @@
 export default {
 	"_inherit": true,
+	type: "dark", // added to make Nebula load the dark material UI theme
 	"_variables": {
 		"@myColorLight": "#FFFFFF",
 		"@myColorDark": "#404040",

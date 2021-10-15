@@ -2,7 +2,7 @@ import * as stardust from '@nebula.js/stardust';
 import connect from './connect';
 import connectLocal from './connect-local';
 import theme from './sense-default';
-import secondTheme from './sense-horizon';
+import secondTheme from './sense-dark-horizon';
 import barChart from '@nebula.js/sn-bar-chart';
 import lineChart from '@nebula.js/sn-line-chart';
 import pie from '@nebula.js/sn-pie-chart';
@@ -83,6 +83,10 @@ async function init() {
         button.njs-cell-action {
           color: white;
         }
+
+        div.njs-action-toolbar-popover {
+          background: darkolivegreen;
+        }
         `;
         styleNode = document.createElement('style');
         document.head.appendChild(styleNode);
@@ -96,12 +100,12 @@ async function init() {
           type: types[typeIndex].name,
           element: el,
           fields: ['title', '=rand()-0.5'],
-          properties: {
+          properties: types[typeIndex].name !== "piechart" ? {
             showTitles: true,
             title: 'Main title',
             subtitle: 'subtitle',
             footnote: 'footer',
-          },
+          } : null,
         });
         typeIndex++;
       }
