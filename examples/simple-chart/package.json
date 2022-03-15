@@ -1,0 +1,36 @@
+{
+  "name": "simple-chart",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "author": {
+    "name": "caele",
+    "email": "tsm@qlik.com"
+  },
+  "keywords": [
+    "qlik",
+    "nebula",
+    "stardust"
+  ],
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "main": "dist/simple-chart.js",
+  "module": "dist/simple-chart.esm.js",
+  "scripts": {
+    "build": "nebula build",
+    "start": "nebula serve"
+  },
+  "devDependencies": {
+    "@nebula.js/cli": "2.6.1",
+    "@nebula.js/cli-build": "2.6.1",
+    "@nebula.js/cli-serve": "2.6.1",
+    "@nebula.js/cli-sense": "2.6.1"
+  },
+  "peerDependencies": {
+    "@nebula.js/stardust": "^2.x"
+  }
+}
