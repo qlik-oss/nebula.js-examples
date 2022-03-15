@@ -11,6 +11,9 @@
 * Building mashups
   * [Using the keyboard](https://github.com/qlik-oss/nebula.js-examples/tree/main/examples/use-keyboard)
   * [Using themes](https://github.com/qlik-oss/nebula.js-examples/tree/main/examples/themes)
+
+* Building charts
+  * [Simple chart using data](https://github.com/qlik-oss/nebula.js-examples/tree/main/examples/simple-chart)
 ## License
 
 `https://github.com/qlik-oss/nebula.js-examples` is [MIT licensed](./LICENSE).
