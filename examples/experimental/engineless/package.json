@@ -1,0 +1,25 @@
+{
+  "name": "local-mashup",
+  "version": "1.0.0",
+  "description": "Simple local mashup",
+  "sideEffects": false,
+  "scripts": {
+    "start": "parcel src/index.html --open --no-hmr",
+    "build": "parcel build src/index.html --dist-dir ./dist --no-cache"
+  },
+  "dependencies": {
+    "@nebula.js/stardust": "2.10.0",
+    "enigma.js": "latest",
+    "qix-faker": "^0.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.3",
+    "@nebula.js/sn-bar-chart": "latest",
+    "@nebula.js/sn-grid-chart": "latest",
+    "@nebula.js/sn-line-chart": "latest",
+    "@nebula.js/sn-mekko-chart": "latest",
+    "@nebula.js/sn-pie-chart": "latest",
+    "parcel": "2.4.0",
+    "process": "^0.11.10"
+  }
+}
