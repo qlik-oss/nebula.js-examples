@@ -50,7 +50,7 @@ async function init() {
 
   await renderBar(nebbie, elements[0]);
   await renderLine(nebbie, elements[1]);
-  const viz = await renderGrid(nebbie, elements[2]);
+  await renderGrid(nebbie, elements[2]);
 
 }
 

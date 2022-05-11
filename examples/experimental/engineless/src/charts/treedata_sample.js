@@ -1,4694 +1,1136 @@
 export default data = {
   "qSize": {
     "qcx": 1,
-    "qcy": 95218
+    "qcy": 25
   },
   "qDimensionInfo": [
     {
-      "qFallbackTitle": "First Linked",
-      "qApprMaxGlyphCount": 4,
-      "qCardinal": 1000,
+      "qFallbackTitle": "Budget Period",
+      "qApprMaxGlyphCount": 3,
+      "qCardinal": 12,
       "qSortIndicator": "A",
-      "qGroupFallbackTitles": ["First Linked"],
+      "qGroupFallbackTitles": [
+        "Budget Period"
+      ],
       "qGroupPos": 0,
       "qStateCounts": {
         "qLocked": 0,
-        "qSelected": 0,
-        "qOption": 1000,
+        "qSelected": 5,
+        "qOption": 0,
         "qDeselected": 0,
-        "qAlternative": 0,
+        "qAlternative": 7,
         "qExcluded": 0,
         "qSelectedExcluded": 0,
         "qLockedExcluded": 0
       },
-      "qTags": ["$numeric", "$integer"],
-      "qDimensionType": "N",
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qDimensionType": "D",
       "qGrouping": "N",
       "qNumFormat": {
-        "qType": "R",
-        "qnDec": 14,
-        "qUseThou": 1,
-        "qFmt": "##############",
-        "qDec": ","
+        "qType": "U",
+        "qnDec": 0,
+        "qUseThou": 0
       },
       "qIsAutoFormat": true,
-      "qGroupFieldDefs": ["First Linked"],
-      "qMin": 1,
-      "qMax": 1000,
-      "qContinuousAxes": true,
+      "qGroupFieldDefs": [
+        "textBudgetPeriod"
+      ],
+      "qMin": "NaN",
+      "qMax": "NaN",
       "qAttrExprInfo": [],
       "qAttrDimInfo": [],
       "qCardinalities": {
-        "qCardinal": 1000,
-        "qHypercubeCardinal": 1000,
-        "qAllValuesCardinal": 1000
+        "qCardinal": 12,
+        "qHypercubeCardinal": 5,
+        "qAllValuesCardinal": 5
       },
+      "qLibraryId": "EyEkgTn",
+      "title": "Budget Period",
       "autoSort": true,
-      "cId": "akLsNM",
-      "othersLabel": "Others"
+      "cId": "EphtMJ",
+      "othersLabel": "Altri"
     },
     {
-      "qFallbackTitle": "Second Linked",
-      "qApprMaxGlyphCount": 4,
-      "qCardinal": 1000,
+      "qFallbackTitle": "Basket Product Group Desc",
+      "qApprMaxGlyphCount": 19,
+      "qCardinal": 17,
       "qSortIndicator": "A",
-      "qGroupFallbackTitles": ["Second Linked"],
+      "qGroupFallbackTitles": [
+        "Basket Product Group Desc"
+      ],
       "qGroupPos": 0,
       "qStateCounts": {
         "qLocked": 0,
-        "qSelected": 0,
-        "qOption": 1000,
+        "qSelected": 5,
+        "qOption": 0,
         "qDeselected": 0,
-        "qAlternative": 0,
+        "qAlternative": 12,
         "qExcluded": 0,
         "qSelectedExcluded": 0,
         "qLockedExcluded": 0
       },
-      "qTags": ["$numeric", "$integer"],
-      "qDimensionType": "N",
+      "qTags": [
+        "$ascii",
+        "$text"
+      ],
+      "qDimensionType": "D",
       "qGrouping": "N",
       "qNumFormat": {
-        "qType": "R",
-        "qnDec": 14,
-        "qUseThou": 1,
-        "qFmt": "##############",
-        "qDec": ","
+        "qType": "U",
+        "qnDec": 0,
+        "qUseThou": 0
       },
       "qIsAutoFormat": true,
-      "qGroupFieldDefs": ["Second Linked"],
-      "qMin": 1,
-      "qMax": 1000,
-      "qAttrExprInfo": [],
+      "qGroupFieldDefs": [
+        "Basket Product Group Desc"
+      ],
+      "qMin": "NaN",
+      "qMax": "NaN",
+      "qAttrExprInfo": [
+        {
+          "qMin": 723.3041206168488,
+          "qMax": 1123.5248376664495,
+          "qFallbackTitle": "Avg Sales",
+          "qMinText": "723.30412",
+          "qMaxText": "1123.5248",
+          "qNumFormat": {
+            "qType": "R",
+            "qnDec": 0,
+            "qUseThou": 0,
+            "qFmt": "########",
+            "qDec": ".",
+            "qThou": ","
+          },
+          "qIsAutoFormat": true,
+          "id": "colorByAlternative",
+          "matchMeasure": 0,
+          "colorMapRef": "KBgAFet"
+        }
+      ],
       "qAttrDimInfo": [],
       "qCardinalities": {
-        "qCardinal": 1000,
-        "qHypercubeCardinal": 1000,
-        "qAllValuesCardinal": 1000
+        "qCardinal": 17,
+        "qHypercubeCardinal": 5,
+        "qAllValuesCardinal": 5
       },
+      "qLibraryId": "af474ee7-aa28-4870-9ffb-790f201c1cc3",
+      "title": "Basket Product Group Desc",
       "autoSort": true,
-      "cId": "qjzRYm",
-      "othersLabel": "Others"
+      "cId": "HfsppgV",
+      "othersLabel": "Altri"
     }
   ],
   "qMeasureInfo": [
     {
-      "qFallbackTitle": "rand()",
-      "qApprMaxGlyphCount": 19,
+      "qFallbackTitle": "Avg Sales",
+      "qApprMaxGlyphCount": 9,
       "qCardinal": 0,
       "qSortIndicator": "D",
       "qNumFormat": {
         "qType": "R",
         "qnDec": 0,
         "qUseThou": 0,
-        "qFmt": "##############",
-        "qDec": ",",
-        "qThou": " "
+        "qFmt": "########",
+        "qDec": ".",
+        "qThou": ","
       },
-      "qMin": 0.000011552590876817703,
-      "qMax": 0.9999902993440628,
+      "qMin": 723.3041206168488,
+      "qMax": 1123.5248376664495,
       "qIsAutoFormat": true,
       "qAttrExprInfo": [],
       "qAttrDimInfo": [],
+      "qLibraryId": "KBgAFet",
       "qTrendLines": [],
       "autoSort": true,
-      "cId": "fBAqE",
-      "numFormatFromTemplate": true
+      "cId": "gV",
+      "numFormatFromTemplate": true,
+      "quarantine": {
+        "qNumFormat": {},
+        "isCustomFormatted": false
+      }
     }
   ],
-  "qEffectiveInterColumnSortOrder": [0, 1],
+  "qEffectiveInterColumnSortOrder": [
+    0,
+    1
+  ],
   "qGrandTotalRow": [],
   "qDataPages": [],
   "qPivotDataPages": [],
   "qStackedDataPages": [],
   "qMode": "T",
   "qNoOfLeftDims": 2,
-  "qTreeNodesOnDim": [1000, 95218],
+  "qTreeNodesOnDim": [
+    5,
+    25
+  ],
   "qColumnOrder": [],
   "qTreeDataPages": [
     {
       "qValue": 0,
       "qElemNo": -1,
       "qGroupPos": 0,
-      "qGroupSize": 1000,
+      "qGroupSize": 5,
       "qRow": 0,
       "qType": "R",
       "qValues": [],
       "qNodes": [
         {
-          "qText": "1",
-          "qValue": 1,
-          "qElemNo": 522,
+          "qText": "Apr",
+          "qValue": "NaN",
+          "qElemNo": 3,
           "qGroupPos": 0,
-          "qGroupSize": 1000,
+          "qGroupSize": 5,
           "qRow": 0,
           "qType": "N",
           "qValues": [],
           "qNodes": [
             {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
+              "qText": "Alcoholic Beverages",
+              "qValue": "NaN",
+              "qElemNo": 11,
               "qGroupPos": 0,
               "qGroupSize": 0,
               "qRow": 0,
-              "qType": "G",
+              "qType": "N",
               "qValues": [
                 {
-                  "qValue": null,
-                  "qText": ""
+                  "qText": "727.0934",
+                  "qValue": 727.0933975304043
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [0]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "727.0934",
+                    "qNum": 727.0933975304043
+                  }
+                ]
+              },
+              "qMaxPos": [
+                727.0933975304043
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                0
+              ]
             },
             {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
+              "qText": "Baked Goods",
+              "qValue": "NaN",
+              "qElemNo": 13,
               "qGroupPos": 1,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
+              "qRow": 1,
+              "qType": "N",
               "qValues": [
                 {
-                  "qValue": null,
-                  "qText": ""
+                  "qText": "771.32736",
+                  "qValue": 771.3273562293131
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [0]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "771.32736",
+                    "qNum": 771.3273562293131
+                  }
+                ]
+              },
+              "qMaxPos": [
+                771.3273562293131
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                0
+              ]
             },
             {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
+              "qText": "Baking Goods",
+              "qValue": "NaN",
+              "qElemNo": 8,
               "qGroupPos": 2,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
+              "qRow": 2,
+              "qType": "N",
               "qValues": [
                 {
-                  "qValue": null,
-                  "qText": ""
+                  "qText": "1113.5291",
+                  "qValue": 1113.5291060066118
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [0]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "1113.5291",
+                    "qNum": 1113.5291060066118
+                  }
+                ]
+              },
+              "qMaxPos": [
+                1113.5291060066118
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                0
+              ]
             },
             {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
+              "qText": "Beverages",
+              "qValue": "NaN",
+              "qElemNo": 7,
               "qGroupPos": 3,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
+              "qRow": 3,
+              "qType": "N",
               "qValues": [
                 {
-                  "qValue": null,
-                  "qText": ""
+                  "qText": "921.02783",
+                  "qValue": 921.0278349032801
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [0]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "921.02783",
+                    "qNum": 921.0278349032801
+                  }
+                ]
+              },
+              "qMaxPos": [
+                921.0278349032801
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                0
+              ]
             },
             {
-              "qText": "5",
-              "qValue": 0,
-              "qElemNo": 243,
+              "qText": "Breakfast Foods",
+              "qValue": "NaN",
+              "qElemNo": 10,
               "qGroupPos": 4,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
+              "qRow": 4,
+              "qType": "N",
               "qValues": [
                 {
-                  "qValue": null,
-                  "qText": ""
+                  "qText": "763.13058",
+                  "qValue": 763.1305839623965
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [0]
-            },
-            {
-              "qText": "6",
-              "qValue": 0,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "763.13058",
+                    "qNum": 763.1305839623965
+                  }
+                ]
+              },
+              "qMaxPos": [
+                763.1305839623965
               ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [0]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
+              "qMinNeg": [
+                0
               ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [0]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [0]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [0]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [0]
+              "qState": "S",
+              "qTreePath": [
+                0
+              ]
             }
           ],
-          "qMaxPos": [43.495335773099214],
-          "qMinNeg": [0],
+          "qMaxPos": [
+            4296.108278632006
+          ],
+          "qMinNeg": [
+            0
+          ],
           "qCanExpand": true,
-          "qState": "O",
+          "qState": "S",
           "qTreePath": []
         },
         {
-          "qText": "2",
-          "qValue": 2,
-          "qElemNo": 736,
+          "qText": "Feb",
+          "qValue": "NaN",
+          "qElemNo": 1,
           "qGroupPos": 1,
-          "qGroupSize": 1000,
-          "qRow": 92,
+          "qGroupSize": 5,
+          "qRow": 5,
           "qType": "N",
           "qValues": [],
           "qNodes": [
             {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
+              "qText": "Alcoholic Beverages",
+              "qValue": "NaN",
+              "qElemNo": 11,
               "qGroupPos": 0,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
+              "qRow": 5,
+              "qType": "N",
               "qValues": [
                 {
-                  "qValue": null,
-                  "qText": ""
+                  "qText": "728.7171",
+                  "qValue": 728.7170992718175
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [1]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "728.7171",
+                    "qNum": 728.7170992718175
+                  }
+                ]
+              },
+              "qMaxPos": [
+                728.7170992718175
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                1
+              ]
             },
             {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
+              "qText": "Baked Goods",
+              "qValue": "NaN",
+              "qElemNo": 13,
               "qGroupPos": 1,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
+              "qRow": 6,
+              "qType": "N",
               "qValues": [
                 {
-                  "qValue": null,
-                  "qText": ""
+                  "qText": "790.3358",
+                  "qValue": 790.335797153339
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [1]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "790.3358",
+                    "qNum": 790.335797153339
+                  }
+                ]
+              },
+              "qMaxPos": [
+                790.335797153339
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                1
+              ]
             },
             {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
+              "qText": "Baking Goods",
+              "qValue": "NaN",
+              "qElemNo": 8,
               "qGroupPos": 2,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
+              "qRow": 7,
+              "qType": "N",
               "qValues": [
                 {
-                  "qValue": null,
-                  "qText": ""
+                  "qText": "1120.3798",
+                  "qValue": 1120.3798141192892
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [1]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "1120.3798",
+                    "qNum": 1120.3798141192892
+                  }
+                ]
+              },
+              "qMaxPos": [
+                1120.3798141192892
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                1
+              ]
             },
             {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
+              "qText": "Beverages",
+              "qValue": "NaN",
+              "qElemNo": 7,
               "qGroupPos": 3,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
+              "qRow": 8,
+              "qType": "N",
               "qValues": [
                 {
-                  "qValue": null,
-                  "qText": ""
+                  "qText": "919.83337",
+                  "qValue": 919.8333724868427
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [1]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "919.83337",
+                    "qNum": 919.8333724868427
+                  }
+                ]
+              },
+              "qMaxPos": [
+                919.8333724868427
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                1
+              ]
             },
             {
-              "qText": "5",
-              "qValue": 0,
-              "qElemNo": 243,
+              "qText": "Breakfast Foods",
+              "qValue": "NaN",
+              "qElemNo": 10,
               "qGroupPos": 4,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
+              "qRow": 9,
+              "qType": "N",
               "qValues": [
                 {
-                  "qValue": null,
-                  "qText": ""
+                  "qText": "796.06651",
+                  "qValue": 796.066511063524
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [1]
-            },
-            {
-              "qText": "6",
-              "qValue": 0,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "796.06651",
+                    "qNum": 796.066511063524
+                  }
+                ]
+              },
+              "qMaxPos": [
+                796.066511063524
               ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [1]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
+              "qMinNeg": [
+                0
               ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [1]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [1]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [1]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [1]
+              "qState": "S",
+              "qTreePath": [
+                1
+              ]
             }
           ],
-          "qMaxPos": [51.40605379361659],
-          "qMinNeg": [0],
+          "qMaxPos": [
+            4355.332594094812
+          ],
+          "qMinNeg": [
+            0
+          ],
           "qCanExpand": true,
-          "qState": "O",
+          "qState": "S",
           "qTreePath": []
         },
         {
-          "qText": "3",
-          "qValue": 3,
-          "qElemNo": 789,
+          "qText": "Jan",
+          "qValue": "NaN",
+          "qElemNo": 0,
           "qGroupPos": 2,
-          "qGroupSize": 1000,
-          "qRow": 187,
+          "qGroupSize": 5,
+          "qRow": 10,
           "qType": "N",
           "qValues": [],
           "qNodes": [
             {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
+              "qText": "Alcoholic Beverages",
+              "qValue": "NaN",
+              "qElemNo": 11,
               "qGroupPos": 0,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
+              "qRow": 10,
+              "qType": "N",
               "qValues": [
                 {
-                  "qValue": null,
-                  "qText": ""
+                  "qText": "729.98266",
+                  "qValue": 729.9826612605924
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [2]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "729.98266",
+                    "qNum": 729.9826612605924
+                  }
+                ]
+              },
+              "qMaxPos": [
+                729.9826612605924
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                2
+              ]
             },
             {
-              "qText": "2",
-              "qValue": 2,
-              "qElemNo": 544,
+              "qText": "Baked Goods",
+              "qValue": "NaN",
+              "qElemNo": 13,
               "qGroupPos": 1,
               "qGroupSize": 0,
-              "qRow": 187,
+              "qRow": 11,
               "qType": "N",
               "qValues": [
                 {
-                  "qText": "0,28114558150992",
-                  "qValue": 0.281145581509918
+                  "qText": "768.77926",
+                  "qValue": 768.7792608773134
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [0.281145581509918],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [2]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "768.77926",
+                    "qNum": 768.7792608773134
+                  }
+                ]
+              },
+              "qMaxPos": [
+                768.7792608773134
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                2
+              ]
             },
             {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
+              "qText": "Baking Goods",
+              "qValue": "NaN",
+              "qElemNo": 8,
               "qGroupPos": 2,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [2]
-            },
-            {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [2]
-            },
-            {
-              "qText": "5",
-              "qValue": 0,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [2]
-            },
-            {
-              "qText": "6",
-              "qValue": 6,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 188,
+              "qRow": 12,
               "qType": "N",
               "qValues": [
                 {
-                  "qText": "0,85020182933658",
-                  "qValue": 0.8502018293365836
+                  "qText": "1115.7719",
+                  "qValue": 1115.7719423272306
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [0.8502018293365836],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [2]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "1115.7719",
+                    "qNum": 1115.7719423272306
+                  }
+                ]
+              },
+              "qMaxPos": [
+                1115.7719423272306
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                2
+              ]
             },
             {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
+              "qText": "Beverages",
+              "qValue": "NaN",
+              "qElemNo": 7,
+              "qGroupPos": 3,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
+              "qRow": 13,
+              "qType": "N",
               "qValues": [
                 {
-                  "qValue": null,
-                  "qText": ""
+                  "qText": "922.13107",
+                  "qValue": 922.1310671256392
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [2]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "922.13107",
+                    "qNum": 922.1310671256392
+                  }
+                ]
+              },
+              "qMaxPos": [
+                922.1310671256392
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                2
+              ]
             },
             {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
+              "qText": "Breakfast Foods",
+              "qValue": "NaN",
+              "qElemNo": 10,
+              "qGroupPos": 4,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
+              "qRow": 14,
+              "qType": "N",
               "qValues": [
                 {
-                  "qValue": null,
-                  "qText": ""
+                  "qText": "764.09326",
+                  "qValue": 764.0932558471172
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [2]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "764.09326",
+                    "qNum": 764.0932558471172
+                  }
+                ]
+              },
+              "qMaxPos": [
+                764.0932558471172
               ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [2]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
+              "qMinNeg": [
+                0
               ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [2]
+              "qState": "S",
+              "qTreePath": [
+                2
+              ]
             }
           ],
-          "qMaxPos": [45.01787524204701],
-          "qMinNeg": [0],
+          "qMaxPos": [
+            4300.758187437893
+          ],
+          "qMinNeg": [
+            0
+          ],
           "qCanExpand": true,
-          "qState": "O",
+          "qState": "S",
           "qTreePath": []
         },
         {
-          "qText": "4",
-          "qValue": 4,
-          "qElemNo": 500,
+          "qText": "Mar",
+          "qValue": "NaN",
+          "qElemNo": 2,
           "qGroupPos": 3,
-          "qGroupSize": 1000,
-          "qRow": 273,
+          "qGroupSize": 5,
+          "qRow": 15,
           "qType": "N",
           "qValues": [],
           "qNodes": [
             {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
+              "qText": "Alcoholic Beverages",
+              "qValue": "NaN",
+              "qElemNo": 11,
               "qGroupPos": 0,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
+              "qRow": 15,
+              "qType": "N",
               "qValues": [
                 {
-                  "qValue": null,
-                  "qText": ""
+                  "qText": "730.23894",
+                  "qValue": 730.2389353087283
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [3]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "730.23894",
+                    "qNum": 730.2389353087283
+                  }
+                ]
+              },
+              "qMaxPos": [
+                730.2389353087283
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                3
+              ]
             },
             {
-              "qText": "2",
-              "qValue": 2,
-              "qElemNo": 544,
+              "qText": "Baked Goods",
+              "qValue": "NaN",
+              "qElemNo": 13,
               "qGroupPos": 1,
               "qGroupSize": 0,
-              "qRow": 273,
+              "qRow": 16,
               "qType": "N",
               "qValues": [
                 {
-                  "qText": "0,78535616723821",
-                  "qValue": 0.7853561672382057
+                  "qText": "792.23811",
+                  "qValue": 792.2381119942796
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [0.7853561672382057],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [3]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "792.23811",
+                    "qNum": 792.2381119942796
+                  }
+                ]
+              },
+              "qMaxPos": [
+                792.2381119942796
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                3
+              ]
             },
             {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
+              "qText": "Baking Goods",
+              "qValue": "NaN",
+              "qElemNo": 8,
               "qGroupPos": 2,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [3]
-            },
-            {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [3]
-            },
-            {
-              "qText": "5",
-              "qValue": 0,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [3]
-            },
-            {
-              "qText": "6",
-              "qValue": 0,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [3]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [3]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [3]
-            },
-            {
-              "qText": "9",
-              "qValue": 9,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 274,
+              "qRow": 17,
               "qType": "N",
               "qValues": [
                 {
-                  "qText": "0,87910876702517",
-                  "qValue": 0.8791087670251727
+                  "qText": "1123.5248",
+                  "qValue": 1123.5248376664495
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [0.8791087670251727],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [3]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "1123.5248",
+                    "qNum": 1123.5248376664495
+                  }
+                ]
+              },
+              "qMaxPos": [
+                1123.5248376664495
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                3
+              ]
             },
             {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
+              "qText": "Beverages",
+              "qValue": "NaN",
+              "qElemNo": 7,
+              "qGroupPos": 3,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
+              "qRow": 18,
+              "qType": "N",
               "qValues": [
                 {
-                  "qValue": null,
-                  "qText": ""
+                  "qText": "922.79756",
+                  "qValue": 922.797560065977
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [3]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "922.79756",
+                    "qNum": 922.797560065977
+                  }
+                ]
+              },
+              "qMaxPos": [
+                922.797560065977
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                3
+              ]
+            },
+            {
+              "qText": "Breakfast Foods",
+              "qValue": "NaN",
+              "qElemNo": 10,
+              "qGroupPos": 4,
+              "qGroupSize": 0,
+              "qRow": 19,
+              "qType": "N",
+              "qValues": [
+                {
+                  "qText": "797.93088",
+                  "qValue": 797.9308803418782
+                }
+              ],
+              "qNodes": [],
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "797.93088",
+                    "qNum": 797.9308803418782
+                  }
+                ]
+              },
+              "qMaxPos": [
+                797.9308803418782
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                3
+              ]
             }
           ],
-          "qMaxPos": [43.2157948887907],
-          "qMinNeg": [0],
+          "qMaxPos": [
+            4366.7303253773125
+          ],
+          "qMinNeg": [
+            0
+          ],
           "qCanExpand": true,
-          "qState": "O",
+          "qState": "S",
           "qTreePath": []
         },
         {
-          "qText": "5",
-          "qValue": 5,
-          "qElemNo": 225,
+          "qText": "May",
+          "qValue": "NaN",
+          "qElemNo": 4,
           "qGroupPos": 4,
-          "qGroupSize": 1000,
-          "qRow": 361,
+          "qGroupSize": 5,
+          "qRow": 20,
           "qType": "N",
           "qValues": [],
           "qNodes": [
             {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
+              "qText": "Alcoholic Beverages",
+              "qValue": "NaN",
+              "qElemNo": 11,
               "qGroupPos": 0,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [4]
-            },
-            {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
-              "qGroupPos": 1,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [4]
-            },
-            {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
-              "qGroupPos": 2,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [4]
-            },
-            {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [4]
-            },
-            {
-              "qText": "5",
-              "qValue": 0,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [4]
-            },
-            {
-              "qText": "6",
-              "qValue": 0,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [4]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [4]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [4]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [4]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [4]
-            }
-          ],
-          "qMaxPos": [53.58906769985333],
-          "qMinNeg": [0],
-          "qCanExpand": true,
-          "qState": "O",
-          "qTreePath": []
-        },
-        {
-          "qText": "6",
-          "qValue": 6,
-          "qElemNo": 200,
-          "qGroupPos": 5,
-          "qGroupSize": 1000,
-          "qRow": 466,
-          "qType": "N",
-          "qValues": [],
-          "qNodes": [
-            {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
-              "qGroupPos": 0,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [5]
-            },
-            {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
-              "qGroupPos": 1,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [5]
-            },
-            {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
-              "qGroupPos": 2,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [5]
-            },
-            {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [5]
-            },
-            {
-              "qText": "5",
-              "qValue": 0,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [5]
-            },
-            {
-              "qText": "6",
-              "qValue": 0,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [5]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [5]
-            },
-            {
-              "qText": "8",
-              "qValue": 8,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 466,
+              "qRow": 20,
               "qType": "N",
               "qValues": [
                 {
-                  "qText": "0,98837792314589",
-                  "qValue": 0.9883779231458902
+                  "qText": "723.30412",
+                  "qValue": 723.3041206168488
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [0.9883779231458902],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [5]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "723.30412",
+                    "qNum": 723.3041206168488
+                  }
+                ]
+              },
+              "qMaxPos": [
+                723.3041206168488
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                4
+              ]
             },
             {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [5]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [5]
-            }
-          ],
-          "qMaxPos": [54.44117879495025],
-          "qMinNeg": [0],
-          "qCanExpand": true,
-          "qState": "O",
-          "qTreePath": []
-        },
-        {
-          "qText": "7",
-          "qValue": 7,
-          "qElemNo": 542,
-          "qGroupPos": 6,
-          "qGroupSize": 1000,
-          "qRow": 575,
-          "qType": "N",
-          "qValues": [],
-          "qNodes": [
-            {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
-              "qGroupPos": 0,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [6]
-            },
-            {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
+              "qText": "Baked Goods",
+              "qValue": "NaN",
+              "qElemNo": 13,
               "qGroupPos": 1,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [6]
-            },
-            {
-              "qText": "3",
-              "qValue": 3,
-              "qElemNo": 565,
-              "qGroupPos": 2,
-              "qGroupSize": 0,
-              "qRow": 575,
+              "qRow": 21,
               "qType": "N",
               "qValues": [
                 {
-                  "qText": "0,26568280858919",
-                  "qValue": 0.26568280858919024
+                  "qText": "788.88851",
+                  "qValue": 788.8885072502401
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [0.26568280858919024],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [6]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "788.88851",
+                    "qNum": 788.8885072502401
+                  }
+                ]
+              },
+              "qMaxPos": [
+                788.8885072502401
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                4
+              ]
             },
             {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [6]
-            },
-            {
-              "qText": "5",
-              "qValue": 0,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [6]
-            },
-            {
-              "qText": "6",
-              "qValue": 0,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [6]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [6]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [6]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [6]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [6]
-            }
-          ],
-          "qMaxPos": [47.47487974027172],
-          "qMinNeg": [0],
-          "qCanExpand": true,
-          "qState": "O",
-          "qTreePath": []
-        },
-        {
-          "qText": "8",
-          "qValue": 8,
-          "qElemNo": 838,
-          "qGroupPos": 7,
-          "qGroupSize": 1000,
-          "qRow": 663,
-          "qType": "N",
-          "qValues": [],
-          "qNodes": [
-            {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
-              "qGroupPos": 0,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [7]
-            },
-            {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
-              "qGroupPos": 1,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [7]
-            },
-            {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
+              "qText": "Baking Goods",
+              "qValue": "NaN",
+              "qElemNo": 8,
               "qGroupPos": 2,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [7]
-            },
-            {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [7]
-            },
-            {
-              "qText": "5",
-              "qValue": 0,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [7]
-            },
-            {
-              "qText": "6",
-              "qValue": 0,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [7]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [7]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [7]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [7]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [7]
-            }
-          ],
-          "qMaxPos": [52.83871744433418],
-          "qMinNeg": [0],
-          "qCanExpand": true,
-          "qState": "O",
-          "qTreePath": []
-        },
-        {
-          "qText": "9",
-          "qValue": 9,
-          "qElemNo": 365,
-          "qGroupPos": 8,
-          "qGroupSize": 1000,
-          "qRow": 773,
-          "qType": "N",
-          "qValues": [],
-          "qNodes": [
-            {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
-              "qGroupPos": 0,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [8]
-            },
-            {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
-              "qGroupPos": 1,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [8]
-            },
-            {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
-              "qGroupPos": 2,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [8]
-            },
-            {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [8]
-            },
-            {
-              "qText": "5",
-              "qValue": 0,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [8]
-            },
-            {
-              "qText": "6",
-              "qValue": 0,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [8]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [8]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [8]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [8]
-            },
-            {
-              "qText": "10",
-              "qValue": 10,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 773,
+              "qRow": 22,
               "qType": "N",
               "qValues": [
                 {
-                  "qText": "0,71760462969542",
-                  "qValue": 0.7176046296954155
+                  "qText": "1117.9434",
+                  "qValue": 1117.9433806026789
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [0.7176046296954155],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [8]
-            }
-          ],
-          "qMaxPos": [42.8990913615562],
-          "qMinNeg": [0],
-          "qCanExpand": true,
-          "qState": "O",
-          "qTreePath": []
-        },
-        {
-          "qText": "10",
-          "qValue": 10,
-          "qElemNo": 144,
-          "qGroupPos": 9,
-          "qGroupSize": 1000,
-          "qRow": 855,
-          "qType": "N",
-          "qValues": [],
-          "qNodes": [
-            {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
-              "qGroupPos": 0,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "1117.9434",
+                    "qNum": 1117.9433806026789
+                  }
+                ]
+              },
+              "qMaxPos": [
+                1117.9433806026789
               ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [9]
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                4
+              ]
             },
             {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
-              "qGroupPos": 1,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [9]
-            },
-            {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
-              "qGroupPos": 2,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [9]
-            },
-            {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
+              "qText": "Beverages",
+              "qValue": "NaN",
+              "qElemNo": 7,
               "qGroupPos": 3,
               "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [9]
-            },
-            {
-              "qText": "5",
-              "qValue": 5,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 855,
+              "qRow": 23,
               "qType": "N",
               "qValues": [
                 {
-                  "qText": "0,40631996793672",
-                  "qValue": 0.4063199679367244
+                  "qText": "917.32204",
+                  "qValue": 917.3220384036618
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [0.4063199679367244],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [9]
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "917.32204",
+                    "qNum": 917.3220384036618
+                  }
+                ]
+              },
+              "qMaxPos": [
+                917.3220384036618
+              ],
+              "qMinNeg": [
+                0
+              ],
+              "qState": "S",
+              "qTreePath": [
+                4
+              ]
             },
             {
-              "qText": "6",
-              "qValue": 0,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [9]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [9]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [9]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [9]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [9]
-            }
-          ],
-          "qMaxPos": [49.73121944721788],
-          "qMinNeg": [0],
-          "qCanExpand": true,
-          "qState": "O",
-          "qTreePath": []
-        },
-        {
-          "qText": "11",
-          "qValue": 11,
-          "qElemNo": 224,
-          "qGroupPos": 10,
-          "qGroupSize": 1000,
-          "qRow": 953,
-          "qType": "N",
-          "qValues": [],
-          "qNodes": [
-            {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
-              "qGroupPos": 0,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [10]
-            },
-            {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
-              "qGroupPos": 1,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [10]
-            },
-            {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
-              "qGroupPos": 2,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [10]
-            },
-            {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [10]
-            },
-            {
-              "qText": "5",
-              "qValue": 5,
-              "qElemNo": 243,
+              "qText": "Breakfast Foods",
+              "qValue": "NaN",
+              "qElemNo": 10,
               "qGroupPos": 4,
               "qGroupSize": 0,
-              "qRow": 953,
+              "qRow": 24,
               "qType": "N",
               "qValues": [
                 {
-                  "qText": "0,45982304867357",
-                  "qValue": 0.45982304867357016
+                  "qText": "794.61399",
+                  "qValue": 794.6139857954523
                 }
               ],
               "qNodes": [],
-              "qMaxPos": [0.45982304867357016],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [10]
-            },
-            {
-              "qText": "6",
-              "qValue": 0,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
+              "qAttrExps": {
+                "qValues": [
+                  {
+                    "qText": "794.61399",
+                    "qNum": 794.6139857954523
+                  }
+                ]
+              },
+              "qMaxPos": [
+                794.6139857954523
               ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [10]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
+              "qMinNeg": [
+                0
               ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [10]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [10]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [10]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [10]
+              "qState": "S",
+              "qTreePath": [
+                4
+              ]
             }
           ],
-          "qMaxPos": [46.05355866579339],
-          "qMinNeg": [0],
-          "qCanExpand": true,
-          "qState": "O",
-          "qTreePath": []
-        },
-        {
-          "qText": "12",
-          "qValue": 12,
-          "qElemNo": 411,
-          "qGroupPos": 11,
-          "qGroupSize": 1000,
-          "qRow": 1045,
-          "qType": "N",
-          "qValues": [],
-          "qNodes": [
-            {
-              "qText": "1",
-              "qValue": 1,
-              "qElemNo": 434,
-              "qGroupPos": 0,
-              "qGroupSize": 0,
-              "qRow": 1045,
-              "qType": "N",
-              "qValues": [
-                {
-                  "qText": "0,7735195425339",
-                  "qValue": 0.7735195425339043
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [0.7735195425339043],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [11]
-            },
-            {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
-              "qGroupPos": 1,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [11]
-            },
-            {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
-              "qGroupPos": 2,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [11]
-            },
-            {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [11]
-            },
-            {
-              "qText": "5",
-              "qValue": 5,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 1046,
-              "qType": "N",
-              "qValues": [
-                {
-                  "qText": "0,3719008564949",
-                  "qValue": 0.37190085649490356
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [0.37190085649490356],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [11]
-            },
-            {
-              "qText": "6",
-              "qValue": 0,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [11]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [11]
-            },
-            {
-              "qText": "8",
-              "qValue": 8,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 1047,
-              "qType": "N",
-              "qValues": [
-                {
-                  "qText": "0,67674238467589",
-                  "qValue": 0.6767423846758902
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [0.6767423846758902],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [11]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [11]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [11]
-            }
+          "qMaxPos": [
+            4342.0720326688825
           ],
-          "qMaxPos": [60.52469105133787],
-          "qMinNeg": [0],
-          "qCanExpand": true,
-          "qState": "O",
-          "qTreePath": []
-        },
-        {
-          "qText": "13",
-          "qValue": 13,
-          "qElemNo": 747,
-          "qGroupPos": 12,
-          "qGroupSize": 1000,
-          "qRow": 1158,
-          "qType": "N",
-          "qValues": [],
-          "qNodes": [
-            {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
-              "qGroupPos": 0,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [12]
-            },
-            {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
-              "qGroupPos": 1,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [12]
-            },
-            {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
-              "qGroupPos": 2,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [12]
-            },
-            {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [12]
-            },
-            {
-              "qText": "5",
-              "qValue": 0,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [12]
-            },
-            {
-              "qText": "6",
-              "qValue": 6,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 1158,
-              "qType": "N",
-              "qValues": [
-                {
-                  "qText": "0,9671254302375",
-                  "qValue": 0.9671254302375019
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [0.9671254302375019],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [12]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [12]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [12]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [12]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [12]
-            }
+          "qMinNeg": [
+            0
           ],
-          "qMaxPos": [43.09969991259277],
-          "qMinNeg": [0],
           "qCanExpand": true,
-          "qState": "O",
-          "qTreePath": []
-        },
-        {
-          "qText": "14",
-          "qValue": 14,
-          "qElemNo": 335,
-          "qGroupPos": 13,
-          "qGroupSize": 1000,
-          "qRow": 1248,
-          "qType": "N",
-          "qValues": [],
-          "qNodes": [
-            {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
-              "qGroupPos": 0,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [13]
-            },
-            {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
-              "qGroupPos": 1,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [13]
-            },
-            {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
-              "qGroupPos": 2,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [13]
-            },
-            {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [13]
-            },
-            {
-              "qText": "5",
-              "qValue": 5,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 1248,
-              "qType": "N",
-              "qValues": [
-                {
-                  "qText": "0,31522291060537",
-                  "qValue": 0.315222910605371
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [0.315222910605371],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [13]
-            },
-            {
-              "qText": "6",
-              "qValue": 0,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [13]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [13]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [13]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [13]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [13]
-            }
-          ],
-          "qMaxPos": [52.73371332976967],
-          "qMinNeg": [0],
-          "qCanExpand": true,
-          "qState": "O",
-          "qTreePath": []
-        },
-        {
-          "qText": "15",
-          "qValue": 15,
-          "qElemNo": 676,
-          "qGroupPos": 14,
-          "qGroupSize": 1000,
-          "qRow": 1347,
-          "qType": "N",
-          "qValues": [],
-          "qNodes": [
-            {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
-              "qGroupPos": 0,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [14]
-            },
-            {
-              "qText": "2",
-              "qValue": 2,
-              "qElemNo": 544,
-              "qGroupPos": 1,
-              "qGroupSize": 0,
-              "qRow": 1347,
-              "qType": "N",
-              "qValues": [
-                {
-                  "qText": "0,15762887522578",
-                  "qValue": 0.1576288752257824
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [0.1576288752257824],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [14]
-            },
-            {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
-              "qGroupPos": 2,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [14]
-            },
-            {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [14]
-            },
-            {
-              "qText": "5",
-              "qValue": 0,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [14]
-            },
-            {
-              "qText": "6",
-              "qValue": 6,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 1348,
-              "qType": "N",
-              "qValues": [
-                {
-                  "qText": "0,35746708791703",
-                  "qValue": 0.35746708791702986
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [0.35746708791702986],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [14]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [14]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [14]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [14]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [14]
-            }
-          ],
-          "qMaxPos": [43.543116715271026],
-          "qMinNeg": [0],
-          "qCanExpand": true,
-          "qState": "O",
-          "qTreePath": []
-        },
-        {
-          "qText": "16",
-          "qValue": 16,
-          "qElemNo": 74,
-          "qGroupPos": 15,
-          "qGroupSize": 1000,
-          "qRow": 1428,
-          "qType": "N",
-          "qValues": [],
-          "qNodes": [
-            {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
-              "qGroupPos": 0,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [15]
-            },
-            {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
-              "qGroupPos": 1,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [15]
-            },
-            {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
-              "qGroupPos": 2,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [15]
-            },
-            {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [15]
-            },
-            {
-              "qText": "5",
-              "qValue": 0,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [15]
-            },
-            {
-              "qText": "6",
-              "qValue": 0,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [15]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [15]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [15]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [15]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [15]
-            }
-          ],
-          "qMaxPos": [36.999506855383515],
-          "qMinNeg": [0],
-          "qCanExpand": true,
-          "qState": "O",
-          "qTreePath": []
-        },
-        {
-          "qText": "17",
-          "qValue": 17,
-          "qElemNo": 256,
-          "qGroupPos": 16,
-          "qGroupSize": 1000,
-          "qRow": 1511,
-          "qType": "N",
-          "qValues": [],
-          "qNodes": [
-            {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
-              "qGroupPos": 0,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [16]
-            },
-            {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
-              "qGroupPos": 1,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [16]
-            },
-            {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
-              "qGroupPos": 2,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [16]
-            },
-            {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [16]
-            },
-            {
-              "qText": "5",
-              "qValue": 0,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [16]
-            },
-            {
-              "qText": "6",
-              "qValue": 0,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [16]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [16]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [16]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [16]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [16]
-            }
-          ],
-          "qMaxPos": [38.278292062692344],
-          "qMinNeg": [0],
-          "qCanExpand": true,
-          "qState": "O",
-          "qTreePath": []
-        },
-        {
-          "qText": "18",
-          "qValue": 18,
-          "qElemNo": 319,
-          "qGroupPos": 17,
-          "qGroupSize": 1000,
-          "qRow": 1594,
-          "qType": "N",
-          "qValues": [],
-          "qNodes": [
-            {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
-              "qGroupPos": 0,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [17]
-            },
-            {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
-              "qGroupPos": 1,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [17]
-            },
-            {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
-              "qGroupPos": 2,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [17]
-            },
-            {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [17]
-            },
-            {
-              "qText": "5",
-              "qValue": 0,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [17]
-            },
-            {
-              "qText": "6",
-              "qValue": 0,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [17]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [17]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [17]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [17]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [17]
-            }
-          ],
-          "qMaxPos": [50.58796178502962],
-          "qMinNeg": [0],
-          "qCanExpand": true,
-          "qState": "O",
-          "qTreePath": []
-        },
-        {
-          "qText": "19",
-          "qValue": 19,
-          "qElemNo": 489,
-          "qGroupPos": 18,
-          "qGroupSize": 1000,
-          "qRow": 1692,
-          "qType": "N",
-          "qValues": [],
-          "qNodes": [
-            {
-              "qText": "1",
-              "qValue": 1,
-              "qElemNo": 434,
-              "qGroupPos": 0,
-              "qGroupSize": 0,
-              "qRow": 1692,
-              "qType": "N",
-              "qValues": [
-                {
-                  "qText": "0,66331972926855",
-                  "qValue": 0.6633197292685509
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [0.6633197292685509],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [18]
-            },
-            {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
-              "qGroupPos": 1,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [18]
-            },
-            {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
-              "qGroupPos": 2,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [18]
-            },
-            {
-              "qText": "4",
-              "qValue": 4,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 1693,
-              "qType": "N",
-              "qValues": [
-                {
-                  "qText": "0,10463814390823",
-                  "qValue": 0.10463814390823245
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [0.10463814390823245],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [18]
-            },
-            {
-              "qText": "5",
-              "qValue": 0,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [18]
-            },
-            {
-              "qText": "6",
-              "qValue": 0,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [18]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [18]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [18]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [18]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [18]
-            }
-          ],
-          "qMaxPos": [43.61003166483715],
-          "qMinNeg": [0],
-          "qCanExpand": true,
-          "qState": "O",
-          "qTreePath": []
-        },
-        {
-          "qText": "20",
-          "qValue": 20,
-          "qElemNo": 960,
-          "qGroupPos": 19,
-          "qGroupSize": 1000,
-          "qRow": 1775,
-          "qType": "N",
-          "qValues": [],
-          "qNodes": [
-            {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
-              "qGroupPos": 0,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [19]
-            },
-            {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
-              "qGroupPos": 1,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [19]
-            },
-            {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
-              "qGroupPos": 2,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [19]
-            },
-            {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [19]
-            },
-            {
-              "qText": "5",
-              "qValue": 0,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [19]
-            },
-            {
-              "qText": "6",
-              "qValue": 6,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 1775,
-              "qType": "N",
-              "qValues": [
-                {
-                  "qText": "0,83372681122273",
-                  "qValue": 0.8337268112227321
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [0.8337268112227321],
-              "qMinNeg": [0],
-              "qState": "O",
-              "qTreePath": [19]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [19]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [19]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [19]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [19]
-            }
-          ],
-          "qMaxPos": [53.233285285998136],
-          "qMinNeg": [0],
-          "qCanExpand": true,
-          "qState": "O",
-          "qTreePath": []
-        },
-        {
-          "qText": "21",
-          "qValue": 21,
-          "qElemNo": 123,
-          "qGroupPos": 20,
-          "qGroupSize": 1000,
-          "qRow": 1882,
-          "qType": "N",
-          "qValues": [],
-          "qNodes": [
-            {
-              "qText": "1",
-              "qValue": 0,
-              "qElemNo": 434,
-              "qGroupPos": 0,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [20]
-            },
-            {
-              "qText": "2",
-              "qValue": 0,
-              "qElemNo": 544,
-              "qGroupPos": 1,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [20]
-            },
-            {
-              "qText": "3",
-              "qValue": 0,
-              "qElemNo": 565,
-              "qGroupPos": 2,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [20]
-            },
-            {
-              "qText": "4",
-              "qValue": 0,
-              "qElemNo": 626,
-              "qGroupPos": 3,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [20]
-            },
-            {
-              "qText": "5",
-              "qValue": 0,
-              "qElemNo": 243,
-              "qGroupPos": 4,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [20]
-            },
-            {
-              "qText": "6",
-              "qValue": 0,
-              "qElemNo": 742,
-              "qGroupPos": 5,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [20]
-            },
-            {
-              "qText": "7",
-              "qValue": 0,
-              "qElemNo": 556,
-              "qGroupPos": 6,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [20]
-            },
-            {
-              "qText": "8",
-              "qValue": 0,
-              "qElemNo": 372,
-              "qGroupPos": 7,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [20]
-            },
-            {
-              "qText": "9",
-              "qValue": 0,
-              "qElemNo": 420,
-              "qGroupPos": 8,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [20]
-            },
-            {
-              "qText": "10",
-              "qValue": 0,
-              "qElemNo": 755,
-              "qGroupPos": 9,
-              "qGroupSize": 0,
-              "qRow": 0,
-              "qType": "G",
-              "qValues": [
-                {
-                  "qValue": null,
-                  "qText": ""
-                }
-              ],
-              "qNodes": [],
-              "qMaxPos": [],
-              "qMinNeg": [],
-              "qState": "L",
-              "qTreePath": [20]
-            }
-          ],
-          "qMaxPos": [49.2914919629693],
-          "qMinNeg": [0],
-          "qCanExpand": true,
-          "qState": "O",
+          "qState": "S",
           "qTreePath": []
         }
       ],
@@ -4698,4 +1140,4 @@ export default data = {
       "qTreePath": []
     }
   ]
-}
+};
