@@ -40,6 +40,12 @@ const properties = {
    * @type {boolean=}
    */
   showDetails: false,
+  color: {
+    textColor: {
+      index: -1,
+      color: "#ff0000",
+    },
+  },
 };
 
 export default properties;

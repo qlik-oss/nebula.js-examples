@@ -12,6 +12,18 @@ export default {
           },
         },
       },
+      color: {
+        type: "items",
+        translation: "Coloring",
+        items: {
+          textColor: {
+            component: "color-picker",
+            type: "object",
+            ref: "color.textColor",
+            translation: "properties.color",
+          },
+        },
+      },
     },
   },
   support: {

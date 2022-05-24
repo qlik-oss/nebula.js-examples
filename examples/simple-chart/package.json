@@ -22,15 +22,15 @@
   "module": "dist/simple-chart.esm.js",
   "scripts": {
     "build": "nebula build",
-    "start": "nebula serve"
+    "start": "nebula serve",
+    "sense": "nebula sense"
   },
   "devDependencies": {
-    "@nebula.js/cli": "2.6.1",
-    "@nebula.js/cli-build": "2.6.1",
-    "@nebula.js/cli-serve": "2.6.1",
-    "@nebula.js/cli-sense": "2.6.1"
+    "@nebula.js/cli": "2.10.0",
+    "@nebula.js/cli-serve": "2.10.0",
+    "@nebula.js/cli-sense": "2.10.0"
   },
   "peerDependencies": {
-    "@nebula.js/stardust": "^2.x"
+    "@nebula.js/stardust": "^2.10.0"
   }
 }
