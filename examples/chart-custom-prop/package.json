@@ -1,5 +1,5 @@
 {
-  "name": "simple-chart",
+  "name": "chart-custom-prop",
   "version": "0.1.0",
   "description": "",
   "license": "MIT",
@@ -18,20 +18,20 @@
   "engines": {
     "node": ">=8"
   },
-  "main": "dist/simple-chart.js",
-  "module": "dist/simple-chart.esm.js",
+  "main": "dist/chart-custom-prop.js",
+  "module": "dist/chart-custom-prop.esm.js",
   "scripts": {
     "build": "nebula build",
     "start": "nebula serve",
-    "sense": "nebula sense"
+    "sense": "nebula sense --ext src/ext.js"
   },
   "devDependencies": {
-    "@nebula.js/cli": "2.10.0",
-    "@nebula.js/cli-serve": "2.10.0",
-    "@nebula.js/cli-sense": "2.10.0",
-    "@nebula.js/cli-build": "2.10.0"
+    "@nebula.js/cli": "3.0.0-alpha11",
+    "@nebula.js/cli-serve": "3.0.0-alpha11",
+    "@nebula.js/cli-sense": "3.0.0-alpha11",
+    "@nebula.js/cli-build": "3.0.0-alpha11"
   },
   "peerDependencies": {
-    "@nebula.js/stardust": "^2.10.0"
+    "@nebula.js/stardust": "^3.0.0-alpha11"
   }
 }
