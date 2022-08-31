@@ -339,6 +339,11 @@
   resolved "https://registry.yarnpkg.com/@nebula.js/sn-pie-chart/-/sn-pie-chart-1.6.0.tgz#3a63b579c8b5e8996c6a37fe009fecfcb1525fab"
   integrity sha512-wBJl2bYU5MilGg+Ad+Y7Nnvt+hXyndDHYIPqN+L/sJvxSDE+NIMEyqgrV6dSgFdC/BtJ9OJM3RNVKUC0TSHvQQ==
 
+"@nebula.js/sn-pivot-table@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@nebula.js/sn-pivot-table/-/sn-pivot-table-1.0.1.tgz#df2fa66ac1245d695c71bc6458141d0140a9af32"
+  integrity sha512-tBmiAyS5HNgG/SrDLZPy2GLMlNKiT6Mmc4TDPFOVVwE4+zSWFPAZGE/zT5P+eMqbeQTy9UkVv3JQsyHn8Vsa9w==
+
 "@nebula.js/sn-sankey-chart@^1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@nebula.js/sn-sankey-chart/-/sn-sankey-chart-1.2.1.tgz#c9a57f5d61e9704d5be88f5553c8464f7b375cd9"

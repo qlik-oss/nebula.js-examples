@@ -17,8 +17,8 @@
   "license": "ISC",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
-    "@material-ui/styles": "^4.11.4",
     "@material-ui/icons": "^4.11.3",
+    "@material-ui/styles": "^4.11.4",
     "@nebula.js/sn-bar-chart": "^1.7.1",
     "@nebula.js/sn-bullet-chart": "^1.3.1",
     "@nebula.js/sn-combo-chart": "^1.1.1",
@@ -29,6 +29,7 @@
     "@nebula.js/sn-mekko-chart": "^1.0.4",
     "@nebula.js/sn-org-chart": "^1.0.3",
     "@nebula.js/sn-pie-chart": "^1.6.0",
+    "@nebula.js/sn-pivot-table": "^1.0.1",
     "@nebula.js/sn-sankey-chart": "^1.2.1",
     "@nebula.js/sn-scatter-plot": "^1.0.1",
     "@nebula.js/sn-table": "^1.0.3",

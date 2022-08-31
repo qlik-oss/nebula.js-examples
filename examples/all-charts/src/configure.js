@@ -13,6 +13,7 @@ import sankeyChart from "@nebula.js/sn-sankey-chart/core/esm";
 import scatterPlot from "@nebula.js/sn-scatter-plot/core/esm";
 import table from "@nebula.js/sn-table/core/esm";
 import pieChart from "@nebula.js/sn-pie-chart/core/esm";
+import pivotTable from "@nebula.js/sn-pivot-table/core/esm";
 
 const nebula = embed.createConfiguration({
   context: {
@@ -71,6 +72,10 @@ const nebula = embed.createConfiguration({
     {
       name: "pie-chart",
       load: () => Promise.resolve(pieChart),
+    },
+    {
+      name: "pivot-table",
+      load: () => Promise.resolve(pivotTable),
     },
   ],
 });
