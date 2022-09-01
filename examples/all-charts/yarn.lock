@@ -236,6 +236,13 @@
     react-is "^16.8.0 || ^17.0.0"
     react-transition-group "^4.4.0"
 
+"@material-ui/icons@^4.11.3":
+  version "4.11.3"
+  resolved "https://registry.yarnpkg.com/@material-ui/icons/-/icons-4.11.3.tgz#b0693709f9b161ce9ccde276a770d968484ecff1"
+  integrity sha512-IKHlyx6LDh8n19vzwH5RtHIOHl9Tu90aAAxcbWME6kp4dmvODM3UvOHJeMIDzUbd4muuJKHmlNoBN+mDY4XkBA==
+  dependencies:
+    "@babel/runtime" "^7.4.4"
+
 "@material-ui/styles@^4.11.4":
   version "4.11.4"
   resolved "https://registry.yarnpkg.com/@material-ui/styles/-/styles-4.11.4.tgz#eb9dfccfcc2d208243d986457dff025497afa00d"
@@ -307,10 +314,10 @@
   resolved "https://registry.yarnpkg.com/@nebula.js/sn-grid-chart/-/sn-grid-chart-1.1.1.tgz#4400615860f9559f3b8ee9d1d77d01dee70e311d"
   integrity sha512-GH1OZAw9G1+PXN5N3ssuvF2lYKgBOBpTwZWKe42ihFm5shE/iwV/RTS6dFoHtv5GSj1fXZjgLXzVLYl2xgjYSg==
 
-"@nebula.js/sn-kpi@^0.5.7":
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/@nebula.js/sn-kpi/-/sn-kpi-0.5.7.tgz#165bbf577222436c7a1180835be214f22df09715"
-  integrity sha512-0YcOHXYJyq5kIkcEuuWLY6Fo+LVvQncBqkX0yKfCYGsGXy3EwDXBQT44q9STECS53I6YwhBYty94FYUGWe7DMA==
+"@nebula.js/sn-kpi@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@nebula.js/sn-kpi/-/sn-kpi-0.9.1.tgz#4771f3783cfbd57bad125d79ca1891dd5be531e7"
+  integrity sha512-8yssDqZE5baq9IonR2i47/OjpGylSpDEOb+HnlyP1KLc+mz6wvwQJfXvHIVjKs8iHr70iiQLmVkLDjJXJwQ5DQ==
 
 "@nebula.js/sn-line-chart@^1.6.1":
   version "1.6.1"
@@ -322,15 +329,20 @@
   resolved "https://registry.yarnpkg.com/@nebula.js/sn-mekko-chart/-/sn-mekko-chart-1.0.4.tgz#b553730e15f886dfce8a38e6a109f70cc169893a"
   integrity sha512-68bpPo8MvbnVwTIPl2gJQp5pGOTtwFvFV4CUDKVnJR0w+62URAxsA5YiRdl16oHmocxqVZSWtZXW/neNHWYvuw==
 
-"@nebula.js/sn-org-chart@0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@nebula.js/sn-org-chart/-/sn-org-chart-0.15.0.tgz#559212a40adef4b25133ef47492ba73d0632eba9"
-  integrity sha512-Ce8CcNRZkWQdfuytrCD1TpFS9ZhMDd+JRJ7uEZfBhzppqCXnraC/A17pxQeIj8hKFxX6seoGg6YXppM44dZ2AQ==
+"@nebula.js/sn-org-chart@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@nebula.js/sn-org-chart/-/sn-org-chart-1.0.3.tgz#05b7434230c27d85780b564cce039c41fa466db0"
+  integrity sha512-RzTZyhj3Rku0GiS09eudJXfRUev1JiQXLJAT/aaXdlanE+L7RejD1FDPlT39lxKpNokm0KWeAJqbUYcWG1bKAg==
 
 "@nebula.js/sn-pie-chart@^1.6.0":
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@nebula.js/sn-pie-chart/-/sn-pie-chart-1.6.0.tgz#3a63b579c8b5e8996c6a37fe009fecfcb1525fab"
   integrity sha512-wBJl2bYU5MilGg+Ad+Y7Nnvt+hXyndDHYIPqN+L/sJvxSDE+NIMEyqgrV6dSgFdC/BtJ9OJM3RNVKUC0TSHvQQ==
+
+"@nebula.js/sn-pivot-table@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@nebula.js/sn-pivot-table/-/sn-pivot-table-1.0.1.tgz#df2fa66ac1245d695c71bc6458141d0140a9af32"
+  integrity sha512-tBmiAyS5HNgG/SrDLZPy2GLMlNKiT6Mmc4TDPFOVVwE4+zSWFPAZGE/zT5P+eMqbeQTy9UkVv3JQsyHn8Vsa9w==
 
 "@nebula.js/sn-sankey-chart@^1.2.1":
   version "1.2.1"

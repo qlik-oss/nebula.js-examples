@@ -11,3 +11,4 @@ export * from "./orgChart";
 export * from "./sankeyChart";
 export * from "./scatterConfig";
 export * from "./tableConfig";
+export * from "./pivotTableConfig";

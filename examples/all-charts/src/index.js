@@ -14,12 +14,11 @@ const config = {
 
 async function run() {
   let app;
-  if(config.local) {
+  if (config.local) {
     app = await connectLocal({ appId: "apps/the_movies.qvf" });
   } else {
     app = await connect(config);
   }
-
 
   const n = embed(app);
 

@@ -5,14 +5,15 @@ import bulletChart from "@nebula.js/sn-bullet-chart/core/esm";
 import comboChart from "@nebula.js/sn-combo-chart/core/esm";
 import funnelChart from "@nebula.js/sn-funnel-chart/core/esm";
 import gridChart from "@nebula.js/sn-grid-chart/core/esm";
-import kpi from "@nebula.js/sn-kpi"; // this does not has `core` folder
+import kpi from "@nebula.js/sn-kpi/core/esm";
 import lineChart from "@nebula.js/sn-line-chart/core/esm";
 import mekkoChart from "@nebula.js/sn-mekko-chart/core/esm";
-import orgChart from "@nebula.js/sn-org-chart"; // this does not has `core` folder
+import orgChart from "@nebula.js/sn-org-chart/core/esm";
 import sankeyChart from "@nebula.js/sn-sankey-chart/core/esm";
 import scatterPlot from "@nebula.js/sn-scatter-plot/core/esm";
 import table from "@nebula.js/sn-table/core/esm";
 import pieChart from "@nebula.js/sn-pie-chart/core/esm";
+import pivotTable from "@nebula.js/sn-pivot-table/core/esm";
 
 const nebula = embed.createConfiguration({
   context: {
@@ -71,6 +72,10 @@ const nebula = embed.createConfiguration({
     {
       name: "pie-chart",
       load: () => Promise.resolve(pieChart),
+    },
+    {
+      name: "pivot-table",
+      load: () => Promise.resolve(pivotTable),
     },
   ],
 });
