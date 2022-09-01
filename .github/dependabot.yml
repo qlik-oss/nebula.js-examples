@@ -6,6 +6,6 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/examples" # Location of package manifests
+    directory: "/examples/all-charts" # Location of package manifests
     schedule:
       interval: "weekly"
