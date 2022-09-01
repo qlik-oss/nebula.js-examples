@@ -319,10 +319,10 @@
   resolved "https://registry.yarnpkg.com/@nebula.js/sn-kpi/-/sn-kpi-0.9.1.tgz#4771f3783cfbd57bad125d79ca1891dd5be531e7"
   integrity sha512-8yssDqZE5baq9IonR2i47/OjpGylSpDEOb+HnlyP1KLc+mz6wvwQJfXvHIVjKs8iHr70iiQLmVkLDjJXJwQ5DQ==
 
-"@nebula.js/sn-line-chart@^1.6.1":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@nebula.js/sn-line-chart/-/sn-line-chart-1.6.1.tgz#eec83e097f3ba92580ebb34ad46df5ca58e314c9"
-  integrity sha512-IWiHyfqbWpw2VkSWNQMIwRlXS1x5t9hi7MgyTLDccfMciUFbB9PW5ulep+kAdohkkKTQLILKOr23doyT7z0WcQ==
+"@nebula.js/sn-line-chart@^1.19.0":
+  version "1.19.0"
+  resolved "https://registry.yarnpkg.com/@nebula.js/sn-line-chart/-/sn-line-chart-1.19.0.tgz#5c45ff919f17198e645b43f73d47a6a215e2ff5c"
+  integrity sha512-S/GBYCJXSaopmxrYgfUZIM66UcLvX8x4rm5YlmVY0/f3MUViIsB6lEdawJcXka1PXDA29BzS4BAWOG1uF50LCQ==
 
 "@nebula.js/sn-mekko-chart@^1.0.4":
   version "1.0.4"
