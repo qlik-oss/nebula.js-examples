@@ -2766,10 +2766,10 @@ picasso-plugin-q@^1.2.2:
   resolved "https://registry.yarnpkg.com/picasso-plugin-q/-/picasso-plugin-q-1.2.2.tgz#acfc6a6bdf8e57b9f653a5a7ff54d665340eed0d"
   integrity sha512-uqNPi0PyayJ3oMEP5XV3Rv8VPYl1pP0iv3+yyJnKq7X+uqsVQLSO1PVM/eNTKjklRSOEzNUMMWlj5hJvPfyS7w==
 
-picasso.js@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/picasso.js/-/picasso.js-1.2.2.tgz#b05ab0ac152e1c1403f9c2a82f52a252692fa3ba"
-  integrity sha512-jPhiGYTKT1JjepvdH5RwiLFAHuCEviLMVvtC64ArYH5wN5N+swD0Q3sWtXpHYJFi7DfPDpHe03l2PSxmurdD7A==
+picasso.js@^1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/picasso.js/-/picasso.js-1.6.4.tgz#9a69ce9f73829cc73e846106cb12e2984060849a"
+  integrity sha512-kZYtAZEMXNO8/xuKdVEu1oH+w9RPwVPibRrlA2VoYOLgqO1yUUggWNJnzR8TrsAPsotwTseEChAMZPuiF9MoYg==
 
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
   version "2.3.0"
