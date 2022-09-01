@@ -6,7 +6,7 @@ import connectLocal from "./connect-local";
 import * as chartConfigs from "./chartConfigs";
 
 const config = {
-  local: true,
+  local: false,
   url: "https://my-tenant.qlikcloud.com",
   webIntegrationId: "<REPLACE_ME>",
   appId: "<REPLACE_ME>",
