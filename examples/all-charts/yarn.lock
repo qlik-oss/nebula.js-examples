@@ -344,10 +344,10 @@
   resolved "https://registry.yarnpkg.com/@nebula.js/sn-pivot-table/-/sn-pivot-table-1.0.1.tgz#df2fa66ac1245d695c71bc6458141d0140a9af32"
   integrity sha512-tBmiAyS5HNgG/SrDLZPy2GLMlNKiT6Mmc4TDPFOVVwE4+zSWFPAZGE/zT5P+eMqbeQTy9UkVv3JQsyHn8Vsa9w==
 
-"@nebula.js/sn-sankey-chart@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@nebula.js/sn-sankey-chart/-/sn-sankey-chart-1.2.1.tgz#c9a57f5d61e9704d5be88f5553c8464f7b375cd9"
-  integrity sha512-m+7mc9PWd1/ZFZUfnfaYo2BJJQFDW6hCwjYVz3D1TZbBNBgB9dKRadPkDvvP/9tPATqUp8B4hkMgELRQhLI+DQ==
+"@nebula.js/sn-sankey-chart@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@nebula.js/sn-sankey-chart/-/sn-sankey-chart-1.5.2.tgz#9a913dbc1b6473ef1b3b6e4c7eb98faa89678aa6"
+  integrity sha512-mc1UzrwBAQ3YetnUqnJZtsWbpSxwih4FpkehDyTHKk4yC4Yy6uoZOPYeJJY6y4HKLChAYenQa5nzUmjhhoSvmA==
 
 "@nebula.js/sn-scatter-plot@^1.0.1":
   version "1.0.1"

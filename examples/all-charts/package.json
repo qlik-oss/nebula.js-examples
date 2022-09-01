@@ -30,7 +30,7 @@
     "@nebula.js/sn-org-chart": "^1.0.3",
     "@nebula.js/sn-pie-chart": "^1.6.0",
     "@nebula.js/sn-pivot-table": "^1.0.1",
-    "@nebula.js/sn-sankey-chart": "^1.2.1",
+    "@nebula.js/sn-sankey-chart": "^1.5.2",
     "@nebula.js/sn-scatter-plot": "^1.0.1",
     "@nebula.js/sn-table": "^1.0.3",
     "@nebula.js/stardust": "^1.7.0",
