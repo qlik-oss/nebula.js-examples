@@ -1,7 +1,6 @@
 import "./styles.css";
 import embed from "./configure";
-import connect from "./connect";
-import { CONNECTION_TYPES } from "./connect";
+import connect, { CONNECTION_TYPES } from "./connect";
 import * as chartConfigs from "./chartConfigs";
 
 async function run() {
