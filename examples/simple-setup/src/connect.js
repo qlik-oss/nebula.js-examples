@@ -1,26 +1,20 @@
-import { OAuth } from "./OAuth";
+import enigma from "enigma.js";
+import schema from "enigma.js/schemas/12.936.0.json";
+import { Auth, AuthType } from "@qlik/sdk";
 
-export const CONNECTION_TYPES = {
-  OAUTH: "oAuth",
-  CSRF_TOKEN: "csrf-token",
-};
+export default async function connect({ url, webIntegrationId, appId }) {
+  const authInstance = new Auth({
+    webIntegrationId,
+    autoRedirect: true,
+    authType: AuthType.WebIntegration,
+    host: url.replace(/^https?:\/\//, "").replace(/\/?/, ""),
+  });
 
-export default async function connect({
-  url,
-  webIntegrationId,
-  appId,
-  connectionType,
-}) {
-  const OAuthInstance = new OAuth({ url, appId, webIntegrationId });
-
-  switch (connectionType) {
-    case CONNECTION_TYPES.OAUTH: {
-      return await OAuthInstance.getAppWithWebIntegration();
-    }
-
-    case CONNECTION_TYPES.CSRF_TOKEN:
-    default: {
-      return await OAuthInstance.getAppWithCSRFToken();
-    }
+  if (!authInstance.isAuthenticated()) {
+    authInstance.authenticate();
+  } else {
+    const url = await authInstance.generateWebsocketUrl(appId);
+    const enigmaGlobal = await enigma.create({ schema, url }).open();
+    return enigmaGlobal.openDoc(appId);
   }
 }
