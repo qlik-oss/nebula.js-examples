@@ -22,6 +22,7 @@
     "@nebula.js/sn-line-chart": "^1.6.1",
     "@nebula.js/sn-scatter-plot": "^1.0.1",
     "@nebula.js/stardust": "^1.7.0",
+    "@qlik/sdk": "^0.9.1",
     "enigma.js": "^2.7.3",
     "hammerjs": "^2.0.8",
     "picasso-plugin-hammer": "^1.2.2",
