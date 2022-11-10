@@ -14,6 +14,7 @@ import scatterPlot from "@nebula.js/sn-scatter-plot/core/esm";
 import table from "@nebula.js/sn-table/core/esm";
 import pieChart from "@nebula.js/sn-pie-chart/core/esm";
 import pivotTable from "@nebula.js/sn-pivot-table/core/esm";
+import actionButton from "@nebula.js/sn-action-button/core/esm";
 
 const nebula = embed.createConfiguration({
   context: {
@@ -76,6 +77,10 @@ const nebula = embed.createConfiguration({
     {
       name: "pivot-table",
       load: () => Promise.resolve(pivotTable),
+    },
+    {
+      name: "action-button",
+      load: () => Promise.resolve(actionButton),
     },
   ],
 });

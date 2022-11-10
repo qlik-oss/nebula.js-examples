@@ -329,6 +329,11 @@
     prop-types "^15.7.2"
     react-is "^16.8.0 || ^17.0.0"
 
+"@nebula.js/sn-action-button@^1.24.0":
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/@nebula.js/sn-action-button/-/sn-action-button-1.24.0.tgz#ecdb5d6d8bd9c2b6c0bee5b28b3dace321384a0a"
+  integrity sha512-ioV6/MAkO05WntugSXH45jYx9Hz9LMDyd7I645ueSE1XDIV8xjBHjeigvWarDSDr31CEq9OazU87hnz+EJV/uA==
+
 "@nebula.js/sn-bar-chart@^1.7.1":
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/@nebula.js/sn-bar-chart/-/sn-bar-chart-1.7.1.tgz#8fb98251858dce6a849675879ed2d75573167299"

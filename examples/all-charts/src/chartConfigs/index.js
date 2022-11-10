@@ -12,3 +12,4 @@ export * from "./sankeyChart";
 export * from "./scatterConfig";
 export * from "./tableConfig";
 export * from "./pivotTableConfig";
+export * from "./actionButton";
