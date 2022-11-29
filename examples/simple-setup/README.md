@@ -1,6 +1,6 @@
 ## Example project using chart core packages and webpack
 
-in this sample project, we use webpack to bundle as a bundler and the most important part is we use the core nebula.js packages and install the other peer dependedncies along side with it, in order to have a bit more control in our final bundle size.
+in this sample project, we use webpack as a bundler, and the most important part is that we use the core nebula.js packages and install the other dependedncies along side with it in order to have a bit more control in our final bundle size. The most noticable one is the `@qlik/sdk` package which has been used for handeling the connection between your sense client apps and your mashups. You can find more information about it in our qlik.dev portal at [here](https://qlik.dev/libraries-and-tools/platform-sdk#authentication).
 
 So here is the folder structure of the project:
 
