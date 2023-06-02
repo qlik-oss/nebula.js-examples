@@ -1,0 +1,37 @@
+{
+  "name": "use-embed-chart",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "author": {
+    "name": "caele",
+    "email": "tsm@qlik.com"
+  },
+  "keywords": [
+    "qlik",
+    "nebula",
+    "stardust"
+  ],
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "main": "dist/use-embed-chart.js",
+  "module": "dist/use-embed-chart.esm.js",
+  "scripts": {
+    "build": "nebula build",
+    "start": "nebula serve",
+    "sense": "nebula sense"
+  },
+  "devDependencies": {
+    "@nebula.js/cli": "4.2.0",
+    "@nebula.js/cli-serve": "4.2.0",
+    "@nebula.js/cli-sense": "4.2.0",
+    "@nebula.js/cli-build": "4.2.0"
+  },
+  "peerDependencies": {
+    "@nebula.js/stardust": "^3.2.0"
+  }
+}
