@@ -1,7 +1,3 @@
-# simple-chart
+# use-embed-chart
 
-## Usage
-
-```js
-npm install simple-chart
 ```
