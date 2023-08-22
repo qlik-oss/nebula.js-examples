@@ -1,40 +1,33 @@
-import { embed, __DO_NOT_USE__ } from '@nebula.js/stardust/dist/stardust.dev';
-import bar from '@nebula.js/sn-bar-chart';
-import line from '@nebula.js/sn-line-chart';
-import mekko from '@nebula.js/sn-mekko-chart';
+import { embed, EnigmaMocker } from '@nebula.js/stardust/dist/stardust.dev';
 import pie from '@nebula.js/sn-pie-chart';
-import grid from '@nebula.js/sn-grid-chart';
-
-import renderBar from './charts/shap-bar';
-import renderLine from './charts/stats-line';
-import renderGrid from './charts/grid';
+import local from "./charts/local-chart";
+import { hypercube } from 'qix-faker';
 
 async function init() {
-  //connect().then(async (app) => {
+
+  /* Setup */
   const types = [
     {
-      name: 'bar',
-      load: () => Promise.resolve(bar),
-    },
-    {
-      name: 'line',
-      load: () => Promise.resolve(line),
-    },
-    {
-      name: 'mekko',
-      load: () => Promise.resolve(mekko),
+      name: 'local',
+      load: () => Promise.resolve(local),
     },
     {
       name: 'pie',
       load: () => Promise.resolve(pie),
     },
-    {
-      name: 'grid',
-      load: () => Promise.resolve(grid),
-    },
   ];
 
-  const mockedApp = await __DO_NOT_USE__.EnigmaMocker.fromGenericObjects();
+  const genericObj = {
+    getLayout() {
+      return {
+        qInfo: {
+          qId: "HEY"
+        }
+      }
+    }
+  }
+
+  const mockedApp = await EnigmaMocker.fromGenericObjects([genericObj]);
 
   const nebbie = embed(mockedApp, {
     types,
@@ -45,12 +38,89 @@ async function init() {
     },
   });
 
+  /* Render the locally created chart */
+  const elementLocal = document.querySelector('.localChart');
+  await nebbie.render({
+    type: 'local',
+    options: {
+      // This "unlocks" the object, meaning it renders in its full container att zoom 1
+      freeResize: true
+    },
+    element: elementLocal,
+    properties: {
+      title: 'My local chart',
+    },
+  });
 
-  const elements = document.querySelectorAll('.object');
+  /* Render the pie chart */
+  const countries = [ "Denmark","Finland","Iceland","Norway","Sweden"];
 
-  await renderBar(nebbie, elements[0]);
-  await renderLine(nebbie, elements[1]);
-  await renderGrid(nebbie, elements[2]);
+  const hyper = hypercube({
+    numRows: countries.length,
+    dimensions: [
+      {
+        value: (f, i) => countries[i],
+        override: {
+          qFallbackTitle: 'Countries',
+          // These need to be patched in as the faker won't add them
+          qGroupFallbackTitles: [],
+          qCardinalities: {
+            qCardinal: countries.length,
+            qHypercubeCardinal: countries.length
+          },
+        },
+      },
+    ],
+    measures: [
+      {
+        value: (f, i) => Math.random() * 1000,
+        override: {
+          qFallbackTitle: 'A Random value',
+          // These need to be patched in as the faker won't add them
+          qNumFormat: {
+            qType: 'U',
+          },
+        },
+      },
+    ],
+  });
+
+  const elementPie = document.querySelector('.pie');
+
+  await nebbie.render({
+    type: 'pie',
+    options: {
+      // This "unlocks" the object, meaning it renders in its full container att zoom 1
+      freeResize: true
+    },
+    element:elementPie,
+    properties: {
+      _mock: {
+        qHyperCubeDef: null,
+        qHyperCube: hyper,
+        title: 'A pie chart',
+        snapshotData: {
+          // These settings will controls the object size and zoom unless freeResize is true
+          /*
+          object: {
+            size: {
+              h: 601,
+              w: 243,
+            },
+          },
+          content: {
+            chartData: {
+              rotation: 0,
+            },
+            size: {
+              h: 601,
+              w: 243,
+            },
+          },*/
+        },
+      },
+    },
+  });
 
 }
 
