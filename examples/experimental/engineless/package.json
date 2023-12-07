@@ -8,7 +8,7 @@
     "build": "parcel build src/index.html --dist-dir ./dist --no-cache"
   },
   "dependencies": {
-    "@nebula.js/stardust": "2.10.0",
+    "@nebula.js/stardust": "4.9.0",
     "enigma.js": "latest",
     "qix-faker": "^0.3.0"
   },

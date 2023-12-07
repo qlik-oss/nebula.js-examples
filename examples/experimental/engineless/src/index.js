@@ -1,40 +1,25 @@
-import { embed, __DO_NOT_USE__ } from '@nebula.js/stardust/dist/stardust.dev';
+import { embed, EnigmaMocker } from '@nebula.js/stardust/dist/stardust.dev';
+
 import bar from '@nebula.js/sn-bar-chart';
 import line from '@nebula.js/sn-line-chart';
-import mekko from '@nebula.js/sn-mekko-chart';
-import pie from '@nebula.js/sn-pie-chart';
-import grid from '@nebula.js/sn-grid-chart';
 
-import renderBar from './charts/shap-bar';
-import renderLine from './charts/stats-line';
-import renderGrid from './charts/grid';
+import {getBarLayout, getLineLayout} from "./charts/data"
 
 async function init() {
-  //connect().then(async (app) => {
   const types = [
     {
-      name: 'bar',
+      name: 'barchart',
       load: () => Promise.resolve(bar),
     },
     {
-      name: 'line',
+      name: 'linechart',
       load: () => Promise.resolve(line),
-    },
-    {
-      name: 'mekko',
-      load: () => Promise.resolve(mekko),
-    },
-    {
-      name: 'pie',
-      load: () => Promise.resolve(pie),
-    },
-    {
-      name: 'grid',
-      load: () => Promise.resolve(grid),
     },
   ];
 
-  const mockedApp = await __DO_NOT_USE__.EnigmaMocker.fromGenericObjects();
+
+
+  const mockedApp = await EnigmaMocker.fromGenericObjects();
 
   const nebbie = embed(mockedApp, {
     types,
@@ -48,9 +33,29 @@ async function init() {
 
   const elements = document.querySelectorAll('.object');
 
-  await renderBar(nebbie, elements[0]);
-  await renderLine(nebbie, elements[1]);
-  await renderGrid(nebbie, elements[2]);
+  nebbie.render({
+    type: "barchart",
+    element: elements[0],
+    options: {
+      // This "unlocks" the object, meaning it renders in its full container at zoom 1
+      freeResize: true
+    },
+    properties: {
+      _mock: getBarLayout()
+    }
+  });
+
+  nebbie.render({
+    type: "linechart",
+    element: elements[1],
+    options: {
+      // This "unlocks" the object, meaning it renders in its full container at zoom 1
+      freeResize: true
+    },
+    properties: {
+      _mock: getLineLayout()
+    }
+  });
 
 }
 
