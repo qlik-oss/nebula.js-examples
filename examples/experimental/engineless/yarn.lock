@@ -223,12 +223,12 @@
   resolved "https://registry.yarnpkg.com/@nebula.js/sn-pie-chart/-/sn-pie-chart-1.14.0.tgz#33da6f180179e5dedc346c3b8acb0848b1ca092d"
   integrity sha512-Js8bZn7djr4AZy7z35Pr/G4Iu2gx6Dlv5Iv2JhtgyR09lI1GvYXfC+xjz8P1ze6VXIlZeBkX4xTKsBbv3Xlhug==
 
-"@nebula.js/stardust@2.10.0":
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/@nebula.js/stardust/-/stardust-2.10.0.tgz#eafaa13949a5684b519e0070dbf26386c632818f"
-  integrity sha512-s7QkuvkUdjBAW4IGdkHb/8K17Iqv9COL9BbZVcgsJYcNh857P1jtb1XCFXi4goz+2a3npA1c9uMjVgO4GOeKPg==
+"@nebula.js/stardust@4.9.0":
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/@nebula.js/stardust/-/stardust-4.9.0.tgz#d3f1e171d684d3a8e8b73a4f316d188ca45e8e7d"
+  integrity sha512-4ASnZI8KLBxT3cBrvctQyQQZZmYuyV5zMErYRDR9si9CDa/toHuvzVRvX/IKOWbw3QNX3eiStcF8JWR5NRZLug==
   dependencies:
-    "@types/qlik-engineapi" "12.67.12"
+    "@types/qlik-engineapi" "12.67.16"
 
 "@parcel/bundler-default@2.4.0":
   version "2.4.0"
@@ -857,10 +857,10 @@
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
-"@types/qlik-engineapi@12.67.12":
-  version "12.67.12"
-  resolved "https://registry.yarnpkg.com/@types/qlik-engineapi/-/qlik-engineapi-12.67.12.tgz#454966501cc48f5cd5092b3f4022c8a82ab681fa"
-  integrity sha512-b5F9+pikUXCahd8phenSZfTddQXlmnw+VMPPtuOB6J3GNNEZG/o0dYFOMeAo1VuFgLaD3R/Ew/+dn4QG7cpPNw==
+"@types/qlik-engineapi@12.67.16":
+  version "12.67.16"
+  resolved "https://registry.yarnpkg.com/@types/qlik-engineapi/-/qlik-engineapi-12.67.16.tgz#3c4d3c6282275cfd7ce2efb393098bb6d0a82caf"
+  integrity sha512-NiwMX6zrV162lRcupTdrgoT2YtKZy97zJ70rRGLdJTWcaMOWUgAhM1ufzhmp3ir1KlNArI4Ds8ojfxA80SpwKQ==
 
 abortcontroller-polyfill@^1.1.9:
   version "1.7.3"
