@@ -10,7 +10,7 @@ To use a local nebula version, run this in the stardust folder to allow linking 
 yarn link
 ```
 
-Update dependencies and link nebula
+Update dependencies and link nebula (optional)
 
 ```
 yarn
