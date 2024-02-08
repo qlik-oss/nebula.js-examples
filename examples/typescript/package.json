@@ -20,7 +20,7 @@
   },
   "main": "dist/hello.js",
   "scripts": {
-    "build": "nebula build --typescript",
+    "build": "nebula build",
     "lint": "eslint src",
     "start": "nebula serve",
     "sense": "nebula sense --meta src/meta.json",
