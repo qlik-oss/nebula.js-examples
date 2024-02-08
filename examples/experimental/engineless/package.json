@@ -5,7 +5,8 @@
   "sideEffects": false,
   "scripts": {
     "start": "parcel src/index.html --open --no-hmr",
-    "build": "parcel build src/index.html --dist-dir ./dist --no-cache"
+    "build": "parcel build src/index.html --dist-dir ./dist --no-cache",
+    "cleanstart": "rm -rf dist && rm -rf .parcel-cache && parcel build src/index.html --dist-dir ./dist && parcel src/index.html --no-hmr"
   },
   "dependencies": {
     "@nebula.js/stardust": "4.9.0",

@@ -1,7 +1,7 @@
 import { embed, EnigmaMocker } from '@nebula.js/stardust/dist/stardust.dev';
 
 import bar from '@nebula.js/sn-bar-chart';
-import line from '@nebula.js/sn-line-chart';
+import line from './sn-line-chart';
 
 import {getBarLayout, getLineLayout} from "./charts/data"
 

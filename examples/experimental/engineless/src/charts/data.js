@@ -46,7 +46,7 @@ export function getBarLayout() {
   return {
     qHyperCubeDef: null,
     qHyperCube: hyper,
-    snapshotData: { },
+    preferContinuousAxis: false,
     visualization: 'barchart',
     title: 'This is the title of the barchart',
     subtitle: 'here is the subtitle',
