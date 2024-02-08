@@ -28,7 +28,6 @@
     "test:e2e:report": "playwright show-report test/integration/test-report"
   },
   "devDependencies": {
-    "@babel/preset-env": "7.23.9",
     "@babel/preset-typescript": "7.23.3",
     "@nebula.js/cli": "4.10.0",
     "@nebula.js/cli-build": "4.10.0",
