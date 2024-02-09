@@ -21,8 +21,9 @@
   "main": "dist/hello.js",
   "scripts": {
     "build": "nebula build",
+    "build:watch": "nebula build --watch",
     "lint": "eslint src",
-    "start": "nebula serve",
+    "start": "nebula serve --dev --build false",
     "sense": "nebula sense --meta src/meta.json",
     "test:e2e": "playwright test",
     "test:e2e:report": "playwright show-report test/integration/test-report"
