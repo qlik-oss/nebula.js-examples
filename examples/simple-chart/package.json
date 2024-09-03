@@ -26,12 +26,13 @@
     "sense": "nebula sense"
   },
   "devDependencies": {
-    "@nebula.js/cli": "2.10.0",
-    "@nebula.js/cli-serve": "2.10.0",
-    "@nebula.js/cli-sense": "2.10.0",
-    "@nebula.js/cli-build": "2.10.0"
+    "@nebula.js/cli": "5.1.0",
+    "@nebula.js/cli-serve": "5.1.0",
+    "@nebula.js/cli-sense": "5.1.0",
+    "@nebula.js/cli-build": "5.1.0"
   },
   "peerDependencies": {
-    "@nebula.js/stardust": "^2.10.0"
-  }
+    "@nebula.js/stardust": "^5.1.0"
+  },
+  "packageManager": "pnpm@9.8.0"
 }

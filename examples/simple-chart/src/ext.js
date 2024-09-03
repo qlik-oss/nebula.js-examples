@@ -1,4 +1,16 @@
-export default {
+export default function ext(env) {
+
+  // https://qlik.dev/apis/javascript/nebula-js/#definitions-galaxy
+  // https://qlik.dev/extend/build-extension/in-qlik-sense
+  const { anything } = env;
+  const { sense } = anything;
+
+  if(sense) {
+    // We are inside sense and not in a Nebula mashup environment
+    const {theme, navigation} = sense;
+  }
+
+return {
   definition: {
     type: "items",
     component: "accordion",
@@ -34,3 +46,4 @@ export default {
     viewData: true,
   },
 };
+}
