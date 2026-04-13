@@ -16,6 +16,9 @@ function getColumns(staleLayout) {
 }
 
 function doSelection(selections, cell, colIdx, setSelectedElements) {
+  if (cell.qState === "L") {
+    return; // locked or measure
+  }
   if (!selections.isActive()) {
     selections.begin("/qHyperCubeDef");
   }
@@ -50,8 +53,8 @@ function TableView({ rows, columns, selections, canSelect, accent, theme }) {
       {columns.length ? (
         <thead>
           <tr>
-            {columns.map((col) => (
-              <th key={col}>{col}</th>
+            {columns.map((col, colIdx) => (
+              <th key={`${colIdx}-${col}`}>{col}</th>
             ))}
           </tr>
         </thead>
