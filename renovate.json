@@ -1,8 +1,0 @@
-{
-  "extends": ["qlik-oss", "schedule:monthly"],
-  "circleci": {
-    "ignoreDeps": []
-  },
-  "semanticCommits": true,
-  "rangeStrategy": "bump"
-}
