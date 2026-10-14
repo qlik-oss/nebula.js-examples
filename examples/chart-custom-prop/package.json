@@ -20,18 +20,19 @@
   },
   "main": "dist/chart-custom-prop.js",
   "module": "dist/chart-custom-prop.esm.js",
+  "systemjs": "dist/chart-custom-prop.system.js",
   "scripts": {
     "build": "nebula build",
     "start": "nebula serve",
     "sense": "nebula sense --ext src/ext.js"
   },
   "devDependencies": {
-    "@nebula.js/cli": "3.0.0-alpha11",
-    "@nebula.js/cli-serve": "3.0.0-alpha11",
-    "@nebula.js/cli-sense": "3.0.0-alpha11",
-    "@nebula.js/cli-build": "3.0.0-alpha11"
+    "@nebula.js/cli": "latest",
+    "@nebula.js/cli-serve": "latest",
+    "@nebula.js/cli-sense": "latest",
+    "@nebula.js/cli-build": "latest"
   },
   "peerDependencies": {
-    "@nebula.js/stardust": "^3.0.0-alpha11"
+    "@nebula.js/stardust": ">=3.0.0"
   }
 }

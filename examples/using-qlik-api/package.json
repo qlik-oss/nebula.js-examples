@@ -1,0 +1,28 @@
+{
+  "name": "using-qlik-api",
+  "version": "0.0.1",
+  "author": {
+    "name": "caele",
+    "email": "tsm@qlik.com"
+  },
+  "keywords": [
+    "qlik",
+    "nebula"
+  ],
+  "scripts": {
+    "start": "parcel src/index.html --open --no-hmr",
+    "build": "parcel build src/index.html --dist-dir ./dist"
+  },
+  "dependencies": {
+    "@nebula.js/sn-bar-chart": "^1.x",
+    "@nebula.js/stardust": "5.4.2",
+    "@qlik/api": "^1.17.0",
+    "enigma.js": "^2.6.3",
+    "parcel": "2.12.0"
+  },
+  "packageManager": "pnpm@9.8.0",
+  "devDependencies": {
+    "buffer": "^5.5.0",
+    "process": "^0.11.10"
+  }
+}

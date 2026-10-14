@@ -1,6 +1,7 @@
 import { useElement, useLayout } from "@nebula.js/stardust";
 import properties from "./object-properties";
 import data from "./data";
+import ext from "./ext";
 
 export default function supernova() {
   return {
@@ -16,5 +17,6 @@ export default function supernova() {
       const color = layout.color.textColor.color;
       element.innerHTML = `<div style="color: ${color}">${measure.qFallbackTitle}: ${data[0][0].qText}</div>`; // eslint-disable-line
     },
+    ext: ext,
   };
 }

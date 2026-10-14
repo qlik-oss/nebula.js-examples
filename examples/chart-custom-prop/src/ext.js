@@ -5,13 +5,22 @@ export default {
     items: {
       data: {
         uses: "data",
+      },
+      data2: {
+        label: "Data 2",
+        type: "items",
         items: {
-          dimensions: {
-            disabledRef: "",
-            show: false,
+          dims: {
+            uses: "dimensions",
+          },
+          meas: {
+            uses: "measures",
           },
         },
       },
+ 
+
+      
       custom: {
         type: "string",
         label: "My Custom Component",
