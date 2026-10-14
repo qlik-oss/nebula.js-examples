@@ -4,23 +4,19 @@
   "description": "Simple local mashup",
   "sideEffects": false,
   "scripts": {
-    "start": "parcel src/index.html --open --no-hmr",
-    "build": "parcel build src/index.html --dist-dir ./dist --no-cache",
-    "cleanstart": "rm -rf dist && rm -rf .parcel-cache && parcel build src/index.html --dist-dir ./dist && parcel src/index.html --no-hmr"
+    "start": "parcel src/index.html --open --no-hmr --no-source-maps",
+    "build": "parcel build src/index.html --dist-dir ./dist --no-cache --no-source-maps",
+    "cleanstart": "rm -rf dist && rm -rf .parcel-cache && parcel build src/index.html --dist-dir ./dist --no-source-maps && parcel src/index.html --no-hmr --no-source-maps"
   },
   "dependencies": {
-    "@nebula.js/stardust": "4.9.0",
-    "enigma.js": "latest",
+    "@nebula.js/stardust": "latest",
     "qix-faker": "^0.3.0"
   },
   "devDependencies": {
-    "@babel/core": "7.12.3",
     "@nebula.js/sn-bar-chart": "latest",
-    "@nebula.js/sn-grid-chart": "latest",
     "@nebula.js/sn-line-chart": "latest",
-    "@nebula.js/sn-mekko-chart": "latest",
-    "@nebula.js/sn-pie-chart": "latest",
-    "parcel": "2.4.0",
+    "buffer": "^6.0.3",
+    "parcel": "^2.16.4",
     "process": "^0.11.10"
   }
 }

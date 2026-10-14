@@ -4,17 +4,18 @@
   "description": "Simple Nebula theme mashup",
   "sideEffects": false,
   "scripts": {
-    "start": "parcel src/index.html --open",
-    "build": "parcel build src/index.html --dist-dir dist"
+    "start": "parcel src/index.html --open --no-source-maps",
+    "build": "parcel build src/index.html --dist-dir dist --no-source-maps"
   },
   "dependencies": {
     "@nebula.js/sn-bar-chart": "latest",
     "@nebula.js/sn-line-chart": "latest",
     "@nebula.js/sn-pie-chart": "latest",
-    "@nebula.js/stardust": "2.0.0",
+    "@nebula.js/stardust": "latest",
     "enigma.js": "2.7.2"
   },
   "devDependencies": {
+    "buffer": "^6.0.3",
     "parcel": "^2.0.0"
   }
 }
