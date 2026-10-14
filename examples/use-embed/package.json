@@ -16,7 +16,7 @@
     "dist"
   ],
   "engines": {
-    "node": ">=8"
+    "node": ">=24"
   },
   "main": "dist/use-embed-chart.js",
   "module": "dist/use-embed-chart.esm.js",
@@ -26,12 +26,12 @@
     "sense": "nebula sense"
   },
   "devDependencies": {
-    "@nebula.js/cli": "4.2.0",
-    "@nebula.js/cli-serve": "4.2.0",
-    "@nebula.js/cli-sense": "4.2.0",
-    "@nebula.js/cli-build": "4.2.0"
+    "@nebula.js/cli": "latest",
+    "@nebula.js/cli-serve": "latest",
+    "@nebula.js/cli-sense": "latest",
+    "@nebula.js/cli-build": "latest"
   },
   "peerDependencies": {
-    "@nebula.js/stardust": "^3.2.0"
+    "@nebula.js/stardust": "latest"
   }
 }

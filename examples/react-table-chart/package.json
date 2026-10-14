@@ -16,7 +16,7 @@
     "dist"
   ],
   "engines": {
-    "node": ">=20"
+    "node": ">=24"
   },
   "main": "dist/react-table-chart.js",
   "module": "dist/react-table-chart.esm.js",
@@ -26,8 +26,6 @@
     "sense": "nebula sense --ext src/ext.js"
   },
   "devDependencies": {
-    "@babel/preset-env": "7.29.2",
-    "@babel/preset-react": "7.28.5",
     "@nebula.js/cli": "latest",
     "@nebula.js/cli-serve": "latest",
     "@nebula.js/cli-sense": "latest",
@@ -36,6 +34,6 @@
     "react-dom": "^18.3.1"
   },
   "peerDependencies": {
-    "@nebula.js/stardust": "^3.0.0"
+    "@nebula.js/stardust": "latest"
   }
 }

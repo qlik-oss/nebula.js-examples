@@ -16,7 +16,7 @@
     "dist"
   ],
   "engines": {
-    "node": ">=8"
+    "node": ">=24"
   },
   "main": "dist/simple-chart.js",
   "module": "dist/simple-chart.esm.js",
@@ -26,13 +26,13 @@
     "sense": "nebula sense"
   },
   "devDependencies": {
-    "@nebula.js/cli": "5.1.0",
-    "@nebula.js/cli-serve": "5.1.0",
-    "@nebula.js/cli-sense": "5.1.0",
-    "@nebula.js/cli-build": "5.1.0"
+    "@nebula.js/cli": "latest",
+    "@nebula.js/cli-serve": "latest",
+    "@nebula.js/cli-sense": "latest",
+    "@nebula.js/cli-build": "latest"
   },
   "peerDependencies": {
-    "@nebula.js/stardust": "^5.1.0"
+    "@nebula.js/stardust": "latest"
   },
   "packageManager": "pnpm@9.8.0"
 }
