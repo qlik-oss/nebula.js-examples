@@ -6,3 +6,4 @@
 examples/DEMO
 examples/LOCAL
 **/bundle-analysis.html
+.vscode/*
