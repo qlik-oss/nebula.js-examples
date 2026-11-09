@@ -1,0 +1,32 @@
+{
+  "name": "edit-chart",
+  "version": "0.1.0",
+  "description": "",
+  "license": "MIT",
+  "author": {
+    "name": "caele",
+    "email": "tsm@qlik.com"
+  },
+  "keywords": ["qlik", "nebula", "stardust"],
+  "files": ["dist"],
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "main": "dist/edit-chart.js",
+  "module": "dist/edit-chart.esm.js",
+  "systemjs": "dist/edit-chart.system.js",
+  "scripts": {
+    "build": "nebula build",
+    "start": "nebula serve",
+    "sense": "nebula sense --meta src/meta.json"
+  },
+  "devDependencies": {
+    "@nebula.js/cli": "latest",
+    "@nebula.js/cli-serve": "latest",
+    "@nebula.js/cli-sense": "latest",
+    "@nebula.js/cli-build": "latest"
+  },
+  "peerDependencies": {
+    "@nebula.js/stardust": ">=7.0.0"
+  }
+}
